@@ -1,168 +1,237 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050811" />
-      <stop offset="50%" stop-color="#0a1226" />
-      <stop offset="100%" stop-color="#03050a" />
+      <stop offset="0%" stop-color="#04060d" />
+      <stop offset="40%" stop-color="#070c1b" />
+      <stop offset="80%" stop-color="#0b1328" />
+      <stop offset="100%" stop-color="#030509" />
     </linearGradient>
 
-    <!-- Neon Cyan Gradient -->
+    <!-- Neon Accents -->
     <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00f2fe" />
-      <stop offset="50%" stop-color="#4facfe" />
-      <stop offset="100%" stop-color="#00c6ff" />
+      <stop offset="100%" stop-color="#4facfe" />
     </linearGradient>
 
-    <!-- Emerald Gradient -->
     <linearGradient id="emerald-glow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#10b981" />
       <stop offset="100%" stop-color="#059669" />
     </linearGradient>
 
-    <!-- Text Fill Gradient -->
-    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="40%" stop-color="#e0f2fe" />
-      <stop offset="80%" stop-color="#38bdf8" />
-      <stop offset="100%" stop-color="#00f2fe" />
+    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="cyber-grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f2fe" stroke-width="0.75" stroke-opacity="0.08" />
-      <circle cx="0" cy="0" r="1" fill="#00f2fe" fill-opacity="0.25" />
+    <!-- Code Card Gradient -->
+    <linearGradient id="code-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#090e17" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="glow-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="deep-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Dot Grid Pattern -->
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1" fill="#38bdf8" fill-opacity="0.12" />
     </pattern>
-
-    <!-- Glow Filter -->
-    <filter id="neon-blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="15" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
   </defs>
 
-  <!-- Base Canvas -->
-  <rect width="1200" height="300" fill="url(#bg-grad)" rx="12" />
+  <!-- Canvas Base -->
+  <rect width="1200" height="280" fill="url(#bg-grad)" rx="10" />
 
   <!-- Ambient Light Orbs -->
-  <circle cx="150" cy="80" r="180" fill="#00f2fe" fill-opacity="0.06" filter="url(#soft-glow)" />
-  <circle cx="1050" cy="220" r="220" fill="#10b981" fill-opacity="0.05" filter="url(#soft-glow)" />
-  <circle cx="850" cy="50" r="140" fill="#3b82f6" fill-opacity="0.07" filter="url(#soft-glow)" />
+  <circle cx="260" cy="140" r="140" fill="#00f2fe" fill-opacity="0.08" filter="url(#deep-glow)" />
+  <circle cx="850" cy="130" r="160" fill="#8b5cf6" fill-opacity="0.07" filter="url(#deep-glow)" />
+  <circle cx="560" cy="70" r="90" fill="#10b981" fill-opacity="0.05" filter="url(#deep-glow)" />
 
   <!-- Grid Layer -->
-  <rect width="1200" height="300" fill="url(#cyber-grid)" rx="12" />
+  <rect width="1200" height="280" fill="url(#dot-grid)" rx="10" />
 
-  <!-- Abstract Radar / Hydro Waveforms -->
-  <g opacity="0.35">
-    <path d="M 0 190 Q 300 130 600 210 T 1200 160" fill="none" stroke="url(#cyan-glow)" stroke-width="1.5" />
-    <path d="M 0 220 Q 350 160 700 240 T 1200 190" fill="none" stroke="#10b981" stroke-width="1" stroke-dasharray="4,6" />
-    <path d="M 0 250 Q 250 200 550 260 T 1200 230" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.5" />
+  <!-- Tactical HUD Framing Brackets -->
+  <g stroke="#00f2fe" stroke-width="1.25" fill="none" opacity="0.45">
+    <path d="M 20 35 L 20 20 L 35 20" />
+    <path d="M 1180 35 L 1180 20 L 1165 20" />
+    <path d="M 20 245 L 20 260 L 35 260" />
+    <path d="M 1180 245 L 1180 260 L 1165 260" />
+    <line x1="60" y1="20" x2="160" y2="20" stroke-dasharray="4,6" stroke="#38bdf8" stroke-opacity="0.3" />
+    <line x1="1040" y1="260" x2="1140" y2="260" stroke-dasharray="4,6" stroke="#38bdf8" stroke-opacity="0.3" />
   </g>
 
-  <!-- Tactical HUD Border Elements -->
-  <g stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.6">
-    <!-- Top-Left Bracket -->
-    <path d="M 25 45 L 25 25 L 45 25" />
-    <!-- Top-Right Bracket -->
-    <path d="M 1155 25 L 1175 25 L 1175 45" />
-    <!-- Bottom-Left Bracket -->
-    <path d="M 25 255 L 25 275 L 45 275" />
-    <!-- Bottom-Right Bracket -->
-    <path d="M 1155 275 L 1175 275 L 1175 255" />
+  <!-- ==================== LEFT SECTION: NEURAL NETWORK TOPOLOGY ==================== -->
+  <g transform="translate(60, 25)">
+    <!-- Neural Network Synapse Lines -->
+    <g stroke-linecap="round" opacity="0.45">
+      <!-- Input Layer to Hidden Layer 1 -->
+      <line x1="40" y1="40" x2="140" y2="30" stroke="#00f2fe" stroke-width="1.2" />
+      <line x1="40" y1="40" x2="140" y2="80" stroke="#38bdf8" stroke-width="1" />
+      <line x1="40" y1="40" x2="140" y2="130" stroke="#00f2fe" stroke-width="0.8" />
+      <line x1="40" y1="90" x2="140" y2="30" stroke="#38bdf8" stroke-width="0.8" />
+      <line x1="40" y1="90" x2="140" y2="80" stroke="#00f2fe" stroke-width="1.4" />
+      <line x1="40" y1="90" x2="140" y2="130" stroke="#10b981" stroke-width="1" />
+      <line x1="40" y1="90" x2="140" y2="180" stroke="#00f2fe" stroke-width="0.8" />
+      <line x1="40" y1="140" x2="140" y2="80" stroke="#38bdf8" stroke-width="1" />
+      <line x1="40" y1="140" x2="140" y2="130" stroke="#00f2fe" stroke-width="1.4" />
+      <line x1="40" y1="140" x2="140" y2="180" stroke="#10b981" stroke-width="1.2" />
+      <line x1="40" y1="190" x2="140" y2="130" stroke="#00f2fe" stroke-width="0.8" />
+      <line x1="40" y1="190" x2="140" y2="180" stroke="#38bdf8" stroke-width="1.2" />
+
+      <!-- Hidden Layer 1 to Hidden Layer 2 (Latent Space) -->
+      <line x1="140" y1="30" x2="250" y2="45" stroke="#38bdf8" stroke-width="1.2" />
+      <line x1="140" y1="30" x2="250" y2="105" stroke="#8b5cf6" stroke-width="0.9" />
+      <line x1="140" y1="80" x2="250" y2="45" stroke="#00f2fe" stroke-width="1.4" />
+      <line x1="140" y1="80" x2="250" y2="105" stroke="#38bdf8" stroke-width="1.2" />
+      <line x1="140" y1="80" x2="250" y2="165" stroke="#8b5cf6" stroke-width="0.9" />
+      <line x1="140" y1="130" x2="250" y2="45" stroke="#00f2fe" stroke-width="0.8" />
+      <line x1="140" y1="130" x2="250" y2="105" stroke="#00f2fe" stroke-width="1.5" />
+      <line x1="140" y1="130" x2="250" y2="165" stroke="#38bdf8" stroke-width="1.2" />
+      <line x1="140" y1="180" x2="250" y2="105" stroke="#8b5cf6" stroke-width="0.8" />
+      <line x1="140" y1="180" x2="250" y2="165" stroke="#10b981" stroke-width="1.4" />
+
+      <!-- Hidden Layer 2 to Attention Head / Latent Vector -->
+      <line x1="250" y1="45" x2="350" y2="75" stroke="#c084fc" stroke-width="1.3" />
+      <line x1="250" y1="45" x2="350" y2="135" stroke="#8b5cf6" stroke-width="0.9" />
+      <line x1="250" y1="105" x2="350" y2="75" stroke="#00f2fe" stroke-width="1.4" />
+      <line x1="250" y1="105" x2="350" y2="135" stroke="#c084fc" stroke-width="1.5" />
+      <line x1="250" y1="165" x2="350" y2="75" stroke="#8b5cf6" stroke-width="0.8" />
+      <line x1="250" y1="165" x2="350" y2="135" stroke="#10b981" stroke-width="1.3" />
+
+      <!-- Latent to Output Regression Node -->
+      <line x1="350" y1="75" x2="430" y2="105" stroke="#00f2fe" stroke-width="1.8" filter="url(#glow-blur)" />
+      <line x1="350" y1="135" x2="430" y2="105" stroke="#10b981" stroke-width="1.8" filter="url(#glow-blur)" />
+    </g>
+
+    <!-- Layer 0: Input Nodes [Batch, 24, 9] -->
+    <g>
+      <circle cx="40" cy="40" r="5" fill="#00f2fe" filter="url(#glow-blur)" />
+      <circle cx="40" cy="90" r="5" fill="#00f2fe" filter="url(#glow-blur)" />
+      <circle cx="40" cy="140" r="5" fill="#00f2fe" filter="url(#glow-blur)" />
+      <circle cx="40" cy="190" r="5" fill="#00f2fe" filter="url(#glow-blur)" />
+      <text x="40" y="215" font-family="monospace" font-size="9" fill="#64748b" text-anchor="middle">X[B,T,9]</text>
+    </g>
+
+    <!-- Layer 1: Bi-LSTM Hidden Representations -->
+    <g>
+      <circle cx="140" cy="30" r="6" fill="#38bdf8" />
+      <circle cx="140" cy="80" r="6" fill="#00f2fe" filter="url(#glow-blur)" />
+      <circle cx="140" cy="130" r="6" fill="#00f2fe" filter="url(#glow-blur)" />
+      <circle cx="140" cy="180" r="6" fill="#10b981" />
+      <text x="140" y="215" font-family="monospace" font-size="9" fill="#64748b" text-anchor="middle">Bi-LSTM[1024]</text>
+    </g>
+
+    <!-- Layer 2: Self-Attention & Latent Projections -->
+    <g>
+      <circle cx="250" cy="45" r="6.5" fill="#8b5cf6" filter="url(#glow-blur)" />
+      <circle cx="250" cy="105" r="7.5" fill="#c084fc" filter="url(#glow-blur)" />
+      <circle cx="250" cy="165" r="6.5" fill="#8b5cf6" />
+      <text x="250" y="215" font-family="monospace" font-size="9" fill="#64748b" text-anchor="middle">Attention</text>
+    </g>
+
+    <!-- Layer 3: Residual MLP Projection Head -->
+    <g>
+      <circle cx="350" cy="75" r="6" fill="#00f2fe" filter="url(#glow-blur)" />
+      <circle cx="350" cy="135" r="6" fill="#10b981" filter="url(#glow-blur)" />
+      <text x="350" y="215" font-family="monospace" font-size="9" fill="#64748b" text-anchor="middle">Dense[256→64]</text>
+    </g>
+
+    <!-- Output Regression / PINN Inundation Head -->
+    <g>
+      <circle cx="430" cy="105" r="10" fill="#00f2fe" filter="url(#glow-blur)" />
+      <circle cx="430" cy="105" r="5" fill="#ffffff" />
+      <circle cx="430" cy="105" r="16" fill="none" stroke="#00f2fe" stroke-width="1.2" stroke-dasharray="3,3" opacity="0.6" />
+      <text x="430" y="215" font-family="monospace" font-size="9" fill="#00f2fe" text-anchor="middle">ŷ [Depth/Risk]</text>
+    </g>
+
+    <!-- Mathematical Activation & PDE Waveform Overlay (Below Nodes) -->
+    <path d="M 30 115 Q 85 95 140 115 T 250 115 T 350 115" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,3" opacity="0.3" />
   </g>
 
-  <!-- Technical Telemetry Readout (Top Left) -->
-  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" fill="#38bdf8" letter-spacing="1.5" opacity="0.85">
-    <text x="50" y="42">SYS.NODE // AEGIS-CORE-ONLINE</text>
-    <circle cx="300" cy="38" r="3.5" fill="#10b981" filter="url(#neon-blur)" />
-    <text x="312" y="42" fill="#10b981">AIR-GAPPED RUNTIME ACTIVE</text>
+  <!-- ==================== CENTER DIVIDER: TENSOR FLOW & PIPELINE ==================== -->
+  <g transform="translate(540, 40)" opacity="0.55">
+    <line x1="0" y1="20" x2="0" y2="180" stroke="#334155" stroke-width="1" stroke-dasharray="3,5" />
+    <circle cx="0" cy="50" r="3" fill="#00f2fe" />
+    <circle cx="0" cy="100" r="3" fill="#8b5cf6" />
+    <circle cx="0" cy="150" r="3" fill="#10b981" />
   </g>
 
-  <!-- Top Right Telemetry Coordinate -->
-  <g font-family="monospace" font-size="11" fill="#64748b" text-anchor="end" letter-spacing="1">
-    <text x="1150" y="42">LOC: 19.0760° N, 72.8777° E [IST +0530]</text>
-  </g>
+  <!-- ==================== RIGHT SECTION: PRODUCTION CODE EDITORS ==================== -->
+  
+  <!-- Editor Card 1: PyTorch PINN Loss Engine -->
+  <g transform="translate(575, 26)">
+    <!-- Terminal Window Box -->
+    <rect width="310" height="225" rx="8" fill="url(#code-bg)" stroke="#1e293b" stroke-width="1.2" />
+    
+    <!-- Titlebar -->
+    <path d="M 0 8 Q 0 0 8 0 L 302 0 Q 310 0 310 8 L 310 24 L 0 24 Z" fill="#0b1120" />
+    <circle cx="14" cy="12" r="3.5" fill="#ef4444" opacity="0.7" />
+    <circle cx="26" cy="12" r="3.5" fill="#f59e0b" opacity="0.7" />
+    <circle cx="38" cy="12" r="3.5" fill="#10b981" opacity="0.7" />
+    <text x="56" y="15" font-family="monospace" font-size="9" fill="#94a3b8">pinn_loss_engine.py</text>
+    <rect x="245" y="6" width="55" height="12" rx="3" fill="#0284c7" fill-opacity="0.2" />
+    <text x="272" y="15" font-family="monospace" font-size="7.5" fill="#38bdf8" text-anchor="middle">PYTORCH</text>
 
-  <!-- Center Hero Branding -->
-  <!-- Subtle Glow Behind Name -->
-  <text x="50" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="54" font-weight="900" fill="url(#cyan-glow)" filter="url(#neon-blur)" opacity="0.4" letter-spacing="0.5">
-    ABDULLAH ASHRAF
-  </text>
-  <!-- Sharp Foreground Name -->
-  <text x="50" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="54" font-weight="900" fill="url(#text-grad)" letter-spacing="0.5">
-    ABDULLAH ASHRAF
-  </text>
-
-  <!-- Core Specialization Subtitle -->
-  <text x="52" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="19" font-weight="600" fill="#94a3b8" letter-spacing="0.5">
-    Autonomous Systems Architect <tspan fill="#00f2fe">•</tspan> Physics-Informed AI <tspan fill="#00f2fe">•</tspan> Edge Geospatial Intelligence
-  </text>
-
-  <!-- Manifesto / Tagline -->
-  <text x="52" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" fill="#cbd5e1" opacity="0.85">
-    "Embedding deterministic physical boundary laws into deep representation learning — zero-SaaS, resilient runtimes."
-  </text>
-
-  <!-- Metric Badges Row (Bottom) -->
-  <g transform="translate(52, 230)">
-    <!-- Badge 1: Latency Benchmark -->
-    <g transform="translate(0, 0)">
-      <rect width="190" height="32" rx="6" fill="#0c192e" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.4" />
-      <circle cx="16" cy="16" r="4" fill="#00f2fe" />
-      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">0.66MS LATENCY</text>
-      <text x="135" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">BENCH</text>
-    </g>
-
-    <!-- Badge 2: PINN Parameters -->
-    <g transform="translate(205, 0)">
-      <rect width="210" height="32" rx="6" fill="#0c192e" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" />
-      <circle cx="16" cy="16" r="4" fill="#38bdf8" />
-      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">20.3M PINN</text>
-      <text x="105" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">WEIGHTS</text>
-    </g>
-
-    <!-- Badge 3: Dataset Volume -->
-    <g transform="translate(430, 0)">
-      <rect width="210" height="32" rx="6" fill="#0c192e" stroke="#10b981" stroke-width="1" stroke-opacity="0.4" />
-      <circle cx="16" cy="16" r="4" fill="#10b981" />
-      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">633M ROWS</text>
-      <text x="105" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">PARQUET</text>
-    </g>
-
-    <!-- Badge 4: Multi-Agent Hub -->
-    <g transform="translate(655, 0)">
-      <rect width="220" height="32" rx="6" fill="#0c192e" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4" />
-      <circle cx="16" cy="16" r="4" fill="#c084fc" />
-      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">LANGGRAPH MCP</text>
-      <text x="140" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">MESH</text>
-    </g>
-
-    <!-- Badge 5: Dual Hub -->
-    <g transform="translate(890, 0)">
-      <rect width="200" height="32" rx="6" fill="#0c192e" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4" />
-      <circle cx="16" cy="16" r="4" fill="#fbbf24" />
-      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">DUAL HUB</text>
-      <text x="100" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">GH + HF</text>
+    <!-- Code Lines -->
+    <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="9.5" fill="#e2e8f0" xml:space="preserve">
+      <text x="14" y="44"><tspan fill="#f43f5e">class</tspan> <tspan fill="#38bdf8">HydraulicLockLoss</tspan>(nn.Module):</text>
+      <text x="28" y="62"><tspan fill="#f43f5e">def</tspan> <tspan fill="#38bdf8">forward</tspan>(self, y_pred, y_true, tide, rain):</text>
+      <text x="42" y="80"><tspan fill="#94a3b8"># 1. Log-Cosh Data Loss</tspan></text>
+      <text x="42" y="98">l_data = torch.mean(torch.log(torch.cosh(y_pred - y_true)))</text>
+      <text x="42" y="118"><tspan fill="#94a3b8"># 2. Coastal Mass Conservation</tspan></text>
+      <text x="42" y="136">is_locked = (tide &gt; <tspan fill="#f59e0b">0.85</tspan>) &amp; (rain &gt; <tspan fill="#f59e0b">0.01</tspan>)</text>
+      <text x="42" y="154">l_phys = torch.relu(<tspan fill="#f59e0b">0.10</tspan> - y_pred) * is_locked</text>
+      <text x="42" y="176"><tspan fill="#94a3b8"># 3. Composite Objective</tspan></text>
+      <text x="42" y="194"><tspan fill="#f43f5e">return</tspan> self.alpha * l_data + self.beta * l_phys.mean()</text>
+      
+      <!-- Blinking Terminal Cursor -->
+      <rect x="42" y="202" width="6" height="10" fill="#00f2fe" opacity="0.8" />
     </g>
   </g>
 
-  <!-- Accent Geometry / Radar Reticle in Bottom Right -->
-  <g transform="translate(1110, 160)" stroke="#00f2fe" stroke-opacity="0.25" fill="none">
-    <circle cx="0" cy="0" r="50" stroke-dasharray="2,4" />
-    <circle cx="0" cy="0" r="30" />
-    <circle cx="0" cy="0" r="10" stroke="#10b981" stroke-opacity="0.5" />
-    <line x1="-55" y1="0" x2="55" y2="0" stroke-opacity="0.4" />
-    <line x1="0" y1="-55" x2="0" y2="55" stroke-opacity="0.4" />
+  <!-- Editor Card 2: WebGPU WGSL & LangGraph Execution Core -->
+  <g transform="translate(900, 26)">
+    <!-- Terminal Window Box -->
+    <rect width="265" height="225" rx="8" fill="url(#code-bg)" stroke="#1e293b" stroke-width="1.2" />
+    
+    <!-- Titlebar -->
+    <path d="M 0 8 Q 0 0 8 0 L 257 0 Q 265 0 265 8 L 265 24 L 0 24 Z" fill="#0b1120" />
+    <circle cx="14" cy="12" r="3.5" fill="#ef4444" opacity="0.7" />
+    <circle cx="26" cy="12" r="3.5" fill="#f59e0b" opacity="0.7" />
+    <circle cx="38" cy="12" r="3.5" fill="#10b981" opacity="0.7" />
+    <text x="56" y="15" font-family="monospace" font-size="9" fill="#94a3b8">mesh_kernel.wgsl</text>
+    <rect x="205" y="6" width="50" height="12" rx="3" fill="#8b5cf6" fill-opacity="0.2" />
+    <text x="230" y="15" font-family="monospace" font-size="7.5" fill="#c084fc" text-anchor="middle">WEBGPU</text>
+
+    <!-- Code Lines -->
+    <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="9.5" fill="#e2e8f0" xml:space="preserve">
+      <text x="14" y="44"><tspan fill="#c084fc">@compute</tspan> <tspan fill="#38bdf8">@workgroup_size</tspan>(<tspan fill="#f59e0b">64</tspan>, <tspan fill="#f59e0b">1</tspan>, <tspan fill="#f59e0b">1</tspan>)</text>
+      <text x="14" y="62"><tspan fill="#f43f5e">fn</tspan> <tspan fill="#38bdf8">main</tspan>(<tspan fill="#c084fc">@builtin</tspan>(global_invocation_id)</text>
+      <text x="35" y="80">id: <tspan fill="#10b981">vec3&lt;u32&gt;</tspan>) {</text>
+      <text x="26" y="100"><tspan fill="#f43f5e">let</tspan> idx = id.x;</text>
+      <text x="26" y="118"><tspan fill="#f43f5e">let</tspan> h = elevation_grid[idx];</text>
+      <text x="26" y="136"><tspan fill="#f43f5e">let</tspan> u = advection_step(h, idx);</text>
+      <text x="26" y="156">storageBarrier();</text>
+      <text x="26" y="176">state_buffer[idx] = clamp(u, <tspan fill="#f59e0b">0.0</tspan>, <tspan fill="#f59e0b">1.0</tspan>);</text>
+      <text x="14" y="196">}</text>
+
+      <!-- Terminal Status Pill -->
+      <rect x="14" y="206" width="135" height="12" rx="2" fill="#10b981" fill-opacity="0.1" />
+      <text x="20" y="215" font-family="monospace" font-size="7.5" fill="#10b981">● SHADER COMPILED OK</text>
+    </g>
   </g>
 </svg>

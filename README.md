@@ -1,106 +1,196 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="assets/profile_banner.png" alt="Abdullah Ashraf Banner" width="100%" />
+<!-- AI Models & Code Header Banner -->
+<img src="assets/profile_banner.svg" alt="AI Models & Code Banner" width="100%" />
 
 <br/><br/>
 
-# ABDULLAH ASHRAF
-### **Autonomous Systems Architect • Physics-Informed AI • Edge Runtimes**
-
-`Mumbai, India [IST +0530]` &nbsp;•&nbsp; `abdullah.ashraf55780@gmail.com` &nbsp;•&nbsp; [GitHub](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; [Hugging Face](https://huggingface.co/abdullahashraf122)
-
-<br/>
-
-[![Download CV / Catalog](https://img.shields.io/badge/Master%20Blueprint-Deployment%20Catalog-0284C7?style=for-the-badge&logo=markdown)](https://github.com/abdullah00ashraf/sentinel-hufp-v7/blob/main/MASTER_DEPLOYMENT_CATALOG.md)
-[![Interactive Portal](https://img.shields.io/badge/Live%20Launchpad-Launch%20Portal-9333EA?style=for-the-badge&logo=next.js)](https://github.com/abdullah00ashraf/launch-portal)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hub-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/abdullahashraf122)
+<!-- Consistent, Properly Spaced Action Buttons -->
+<p align="center">
+  <a href="https://github.com/abdullah00ashraf"><img src="https://img.shields.io/badge/GitHub-abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://huggingface.co/abdullahashraf122"><img src="https://img.shields.io/badge/Hugging%20Face-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" /></a>
+  &nbsp;
+  <a href="https://github.com/abdullah00ashraf/launch-portal"><img src="https://img.shields.io/badge/Live%20Demo-Launch%20Portal-9333EA?style=for-the-badge&logo=vercel&logoColor=white" height="32" alt="Launch Portal" /></a>
+  &nbsp;
+  <a href="https://github.com/abdullah00ashraf/sentinel-hufp-v7/blob/main/MASTER_DEPLOYMENT_CATALOG.md"><img src="https://img.shields.io/badge/Audit%20Catalog-Master%20Blueprint-0284C7?style=for-the-badge&logo=gitbook&logoColor=white" height="32" alt="Master Catalog" /></a>
+  &nbsp;
+  <a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Direct%20Contact-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
+</p>
 
 </div>
 
 ---
 
-## 🎯 Executive Summary
+# Abdullah Ashraf
+### **Autonomous Systems Architect • Deep Learning & Geospatial Intelligence • Systems Engineer**
+📍 Greater Mumbai, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🌐 [github.com/abdullah00ashraf](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [huggingface.co/abdullahashraf122](https://huggingface.co/abdullahashraf122)
 
-Systems architect specializing in the convergence of **Physics-Informed Deep Learning (PINNs)**, **autonomous multi-agent DAG governance (LangGraph / MCP 2.0)**, and **air-gapped zero-cloud edge runtimes**. Proven engineering track record delivering production systems from scratch: from multi-decadal geospatial fusion engines (633M records across 216,284 spatial cells) to custom neural loss manifolds with physical boundary constraints, achieving sub-millisecond edge inference.
-
----
-
-## 💼 Core Technical Competencies
-
-* **Physics-Informed Neural Networks (PINNs)**: Formulating custom loss manifolds embedding Navier-Stokes and hydrodynamic mass conservation; Log-Cosh loss optimization; continuity PDE residuals.
-* **Autonomous Multi-Agent Orchestration**: LangGraph stateful Directed Acyclic Graphs (DAGs), Model Context Protocol (MCP 2.0) hosts, constitutional conflict arbitration (`compliance > hard_cap > soft_preference`), zero-trust tool security.
-* **Planetary Geospatial & Big Data**: Out-of-core PyArrow columnar streaming, Apache Parquet, GDAL/Rasterio raster extraction, Copernicus Sentinel-1 SAR radar backscatter ($VH/VV$), NASA DEMs, ERA5 reanalysis.
-* **Air-Gapped Systems & Edge Performance**: Sub-millisecond CPU/GPU inference, memory-mapped NumPy vaults (`np.load(mmap_mode)`), Redis anti-replay nonce tracking, AES-GCM encryption, WebGPU WGSL compute shaders.
-* **Full-Stack Engineering & Web3D**: Python 3.12, FastAPI, Next.js 14 (App Router), React 19, TypeScript, Tailwind CSS, Framer Motion, Three.js / WebGL.
+> **Executive Summary:** Systems and Deep Learning Engineer specializing in **Physics-Informed Neural Networks (PINNs)**, **Multi-Agent Directed Acyclic Graph (DAG) Governance (LangGraph / MCP 2.0)**, and **Zero-SaaS air-gapped geospatial intelligence runtimes**. Author of production spatiotemporal big-data pipelines (633M records across 27.8 GB Parquet), custom WebGPU simulation shaders, and sub-millisecond edge neural inference engines.
 
 ---
 
-## 📦 What We Have Shipped: Production Assets Inventory
+## 🛠️ Languages, Tools & Technical Arsenal
 
-### 🧠 1. Live Pretrained Neural Models (Hugging Face)
+### 1. Programming Languages
+* **Python 3.12+** — *Advanced*: PyTorch, Keras 3, AsyncIO, FastAPI, NumPy, Pandas, PyArrow, SciPy, Numba, Poetry, UV
+* **Rust** — *Systems & Numerical Simulation*: Safe memory structures, PyO3 memory bridges, C++ bindings
+* **TypeScript / JavaScript** — *Full-Stack & Graphics*: Next.js 14 App Router, React 19, Node.js, Three.js, Canvas API
+* **WebGPU WGSL** — *High-Performance Shaders*: Compute & fragment pipelines, numerical fluid simulation, parallel workgroups
+* **SQL** — *Data Engines*: PostgreSQL, SQLite embedded telemetry sinks, complex window aggregations
+* **Shell / Scripting** — *Automation & DevOps*: PowerShell, POSIX Bash, Dockerfile orchestration
 
-| Model Identifier | Parameter Scale | Framework | Target Task & Mathematical Engine | Hub Access |
-|:---|:---:|:---:|:---|:---:|
-| **[`sentinel-mumbai-pinn-v1`](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1)** | **20,387,457** | PyTorch (`torch.nn`) | 6-Layer Bi-LSTM + Multi-Head Self-Attention; Custom Log-Cosh + Hydraulic Lock mass conservation loss | [🤗 Model Card](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1) |
-| **[`sentinel-v7-deep-flood-lstm`](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm)** | **~200,000** | Keras 3 (`.keras`) | Dual Bi-LSTM (128 $\to$ 64) sequence model packaged with fitted 8-feature Scikit-Learn `scaler.joblib` | [🤗 Model Card](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm) |
-| **[`sentinel-mumbai-hybrid-pinn-keras`](https://huggingface.co/abdullahashraf122/sentinel-mumbai-hybrid-pinn-keras)** | **~350,000** | Keras 3 (T4 FP16) | Mixed-precision PINN enforcing partial differential equation (PDE) continuity residual: $\frac{\partial \hat{y}}{\partial t} - (\text{Rain} - \text{Infil}) = 0$ | [🤗 Model Card](https://huggingface.co/abdullahashraf122/sentinel-mumbai-hybrid-pinn-keras) |
+### 2. Deep Learning, AI & Mathematics
+* **Frameworks**: PyTorch (`torch.nn`, Custom Autograd, Multi-Head Attention), Keras 3 (TensorFlow backend, mixed-precision float16)
+* **Paradigms**: Physics-Informed Neural Networks (PINNs), Partial Differential Equation (PDE) residual optimization, Bi-Directional LSTMs
+* **Loss Manifolds**: Log-Cosh loss optimization, Hydraulic Lock mass conservation constraints, Huber loss
+* **Explainable AI (XAI)**: SHAP (SHapley Additive exPlanations), LIME feature attribution matrices
+* **Data & Models Hub**: Hugging Face Hub API (`huggingface_hub`, Git LFS, Datasets, Model Cards, Data Cards)
+* **Optimization & Data Science**: Scikit-Learn (Pipelines, MinMaxScaler, Metrics), Joblib, NetworkX (DAGs)
 
-### 📊 2. Curated & Harmonized Datasets (Hugging Face)
+### 3. Multi-Agent Systems & Distributed Protocols
+* **Orchestration**: LangGraph (Stateful cyclic & directed acyclic graphs, wave execution, checkpointing)
+* **Protocols**: Model Context Protocol (MCP 2.0), Tool Brokerage, Asynchronous Concurrency Locks
+* **Contracts & Typing**: Pydantic v2 (Strict BaseModel serialization, runtime validation)
+* **Alignment & Governance**: Constitutional AI (Anthropic HHH guardrails), Priority Conflict Arbitrators (`compliance > hard_cap > soft_preference`)
 
-| Dataset Identifier | Scale / Footprint | Format | Modality & Feature Provenance | Hub Access |
-|:---|:---:|:---:|:---|:---:|
-| **[`mumbai-salsette-flood-intelligence-2005-2023`](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023)** | **27.84 GB** (633M rows) | Apache Parquet | 19 annual partitions across 216,284 spatial cells; fuses Sentinel-1 SAR, ERA5 weather, and MCGM 1-min tide gauges | [📊 Data Card](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023) |
-| **[`lucknow_hufp_datasets`](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets)** | **2.88 GB** (83.9M vectors) | Memory-Mapped NumPy | `features_80m.npy` of shape `[83986875, 8]` and `labels_80m.npy` combining Sentinel-1 SAR backscatter with HydroSHEDS | [📊 Data Card](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets) |
-| **[`aegis-managerai-agentic-sft-mixture`](https://huggingface.co/datasets/abdullahashraf122/aegis-managerai-agentic-sft-mixture)** | **1.68 MB** (1,417 records) | Augmented ChatML | Curated 7-pillar supervised fine-tuning blend enforcing internal `<think>` reasoning traces and JSON MCP execution | [📊 Data Card](https://huggingface.co/datasets/abdullahashraf122/aegis-managerai-agentic-sft-mixture) |
-| **[`alaska-arctic-hydrology-matrix`](https://huggingface.co/datasets/abdullahashraf122/alaska-arctic-hydrology-matrix)** | **1.97 MB** (50,000 rows) | Apache Parquet | 50k spatial samples unifying HydroSHEDS 15s DEM elevation, JRC Global Surface Water occurrence, and IMD rainfall | [📊 Data Card](https://huggingface.co/datasets/abdullahashraf122/alaska-arctic-hydrology-matrix) |
-| **[`aegis-persona-sovereign-node`](https://huggingface.co/datasets/abdullahashraf122/aegis-persona-sovereign-node)** | **183.7 KB** | ChatML JSONL | Sovereign executive tech-founder dialogue conditioning models for cyber-physical infrastructure defense | [📊 Data Card](https://huggingface.co/datasets/abdullahashraf122/aegis-persona-sovereign-node) |
-| **[`aegis-wgsl-webgpu-shaders`](https://huggingface.co/datasets/abdullahashraf122/aegis-wgsl-webgpu-shaders)** | **46.5 KB** (50 pairs) | Text-to-Code JSONL | 50 physical simulation prompt-code pairs mapping to executable WebGPU WGSL compute and fragment shaders | [📊 Data Card](https://huggingface.co/datasets/abdullahashraf122/aegis-wgsl-webgpu-shaders) |
+### 4. Geospatial, Remote Sensing & Big Data
+* **GIS Libraries**: GDAL / OGR, Rasterio (Affine transformations, sub-pixel raster sampling), Xarray, NetCDF4
+* **Columnar Big Data**: Apache Arrow / PyArrow, Apache Parquet (Snappy compression, out-of-core partitions)
+* **Satellite Earth Observation**: Copernicus Sentinel-1 Synthetic Aperture Radar (SAR IW GRD $VH/VV$ backscatter)
+* **Topographic & Hydro Data**: HydroSHEDS 15-arcsec DEM, JRC Global Surface Water, NASA DEM, GEOGloWS river flow, MCGM 1-min tide gauges
 
-### 🛠️ 3. Shipped Software & System Repositories (GitHub)
+### 5. Backend, Edge Runtimes & Security
+* **Web Frameworks**: FastAPI (Asynchronous ASGI endpoints, WebSockets, streaming responses), Uvicorn
+* **Caching & Nonces**: Redis (Anti-replay nonce vaults, time-to-live keys, sliding-window rate limiting)
+* **Security & Cryptography**: Constant-time HMAC SHA-256 verifiers, AES-GCM encryption, RAM locking (`mlock`), zero plaintext secrets
+* **Containerization & Observability**: Docker, Air-Gapped Appliances, Local SQLite OpenTelemetry (OTEL) trace span collector
 
-| Target Repository | Core Tech Stack | Shipped Deliverable & Architecture | GitHub Link |
-|:---|:---|:---|:---:|
-| **[`sentinel-hufp-v7`](https://github.com/abdullah00ashraf/sentinel-hufp-v7)** | `PyTorch` `Keras 3` `FastAPI` `Copernicus SAR` `XAI` | Spatial flood forecasting engine; 216,284 spatial cells; 0.668ms inference; 10 certified disaster stress test suites | [GitHub](https://github.com/abdullah00ashraf/sentinel-hufp-v7) |
-| **[`managerAI`](https://github.com/abdullah00ashraf/managerAI)** | `Python 3.12` `LangGraph` `MCP 2.0` `SQLite OTEL` | Autonomous enterprise multi-agent graph with conflict arbitration, 3-tier zero-trust firewall, and local OTEL sinks | [GitHub](https://github.com/abdullah00ashraf/managerAI) |
-| **[`aegis-ai-tower`](https://github.com/abdullah00ashraf/aegis-ai-tower)** | `React 19` `Three.js` `WebGPU WGSL` `Tailwind 4` | Sovereign cyber-physical 26-floor challenge engine; BACnet/LonWorks gateways; WGSL compute shader visualizer | [GitHub](https://github.com/abdullah00ashraf/aegis-ai-tower) |
-| **[`ALASKA_SANDBOX`](https://github.com/abdullah00ashraf/ALASKA_SANDBOX)** | `Rasterio` `GDAL` `Apache Parquet` `NumPy` | High-throughput sub-arctic hydro-climatic matrix alignment pipeline | [GitHub](https://github.com/abdullah00ashraf/ALASKA_SANDBOX) |
-| **[`launch-portal`](https://github.com/abdullah00ashraf/launch-portal)** | `Next.js 14` `Framer Motion` `TypeScript` `Tailwind` | Cyberpunk interactive launchpad; real-time telemetry simulators, stateful cryptographic puzzles, audio synthesis | [GitHub](https://github.com/abdullah00ashraf/launch-portal) |
-| **[`portfolio-frontend`](https://github.com/abdullah00ashraf/portfolio-frontend)** | `React` `Three.js WebGL` `Framer Motion` `Tailwind` | Luxury credentials showcase with WebGL particle networks and dynamic chronograph displays | [GitHub](https://github.com/abdullah00ashraf/portfolio-frontend) |
-| **[`portfolio-backend`](https://github.com/abdullah00ashraf/portfolio-backend)** | `Python` `Django` `SQLite` `django-axes` `Argon2` | Hardened academic publications CMS; Argon2 cryptography, rate-limiting, and Unfold administration | [GitHub](https://github.com/abdullah00ashraf/portfolio-backend) |
-
----
-
-## ⚡ Empirical Validation & Performance Benchmarks
-
-All deployed systems adhere to strict empirical SLAs and physical boundary invariance:
-
-* **Inference Latency**: `0.668 ms per 100 geospatial nodes` (tested on CPU edge runtime, batch size: 100).
-* **Physics Loss Fidelity**: `MAE ≤ 0.0004` convergence; `0%` mass disappearance under coastal hydraulic lock.
-* **Big Data Streaming**: `27.84 GB / 633M records` processed out-of-core using PyArrow and Snappy compression.
-* **Zero-Heap Residency**: `2.88 GB` feature matrices queried with `0 MB heap expansion` via memory-mapped NumPy arrays.
-* **Agentic Conflict Resolution**: `100% deadlock-free` LangGraph state transitions (`compliance > hard_cap > soft_preference`).
-* **MCP Execution SLA**: `< 200 ms` roundtrip tool execution; `5.0s` hard thread-lock circuit breaker.
-* **Anti-Replay Defense**: `100% dropped` unauthorized replays via constant-time HMAC SHA-256 + Redis TTL nonces.
+### 6. Frontend & Visual Interfaces
+* **Web Framework**: Next.js 14 (App Router, Server Actions, React 19)
+* **Styling**: Tailwind CSS 4.0, CSS Grid, Custom Design Tokens
+* **Motion & 3D**: Three.js (WebGL particle fields, geometry buffers), Framer Motion (Hardware-accelerated reactive animations)
 
 ---
 
-## 🛠️ Technical Skill Matrix
+## 📦 What We Have Built: Production Systems & Repositories
 
-| Category | Proficiencies |
-|:---|:---|
-| **AI / ML & Modeling** | Physics-Informed Neural Networks (PINN), Bidirectional LSTM, Attention Mechanisms, Keras 3, PyTorch, TensorFlow, SHAP/LIME (XAI), Scikit-Learn, Supervised Fine-Tuning (SFT / ChatML) |
-| **Agentic & Graph Engineering** | LangGraph, LangChain-Core, Model Context Protocol (MCP 2.0), Directed Acyclic Graphs (DAG), Constitutional AI (HHH), Pydantic v2, NetworkX |
-| **Geospatial & Big Data** | GDAL, Rasterio, Apache Parquet, PyArrow, Xarray, NetCDF4, Copernicus Sentinel-1 SAR (IW GRD), HydroSHEDS, NASA DEM |
-| **Edge, Systems & Security** | Python 3.12, FastAPI, Uvicorn, Redis, SQLite, Docker, PowerShell, HMAC SHA-256, AES-GCM, `mlock` Memory Encryption, Linux / Bare-Metal |
-| **Web & 3D Visualization** | TypeScript, Next.js 14, React 19, Tailwind CSS, Framer Motion, Three.js, WebGL, WebGPU WGSL Compute Shaders |
+### 🌊 [Project Salsette / Sentinel V7](https://github.com/abdullah00ashraf/sentinel-hufp-v7) — Coastal Defense & Flood Forecasting AI
+* **Overview**: Air-gapped municipal disaster response runtime delivering hyper-local 100m grid cell waterlogging projections over 216,284 spatial cells across Greater Mumbai.
+* **Technical Highlights**:
+  * **20.3M-Parameter PyTorch PINN**: 6-Layer Bi-LSTM with self-attention optimizing a custom **Log-Cosh + Hydraulic Lock** mass conservation penalty to prevent unphysical water disappearance during sea surges.
+  * **Keras 3 Mixed-Precision PINN**: Attention-augmented network enforcing continuity PDE residuals $\frac{\partial \hat{y}}{\partial t} - (\text{Rain} - \text{Infil}) = 0$.
+  * **27.84 GB Multi-Decadal Parquet Vault**: Fuses 19 years (2005–2023, 633M records) of Sentinel-1 SAR, ERA5 weather, and 1-minute tide gauges.
+  * **0.668 ms Inference Latency**: Sub-millisecond execution per 100 geospatial nodes certified across 10 deterministic disaster stress scenarios.
+* **Artifacts**: [GitHub Repo](https://github.com/abdullah00ashraf/sentinel-hufp-v7) &nbsp;•&nbsp; [🤗 PyTorch PINN Model](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1) &nbsp;•&nbsp; [🤗 Keras Sequence Model](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm) &nbsp;•&nbsp; [📊 27.8 GB Parquet Dataset](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023) &nbsp;•&nbsp; [📊 83.9M Vector NumPy Vault](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets)
 
 ---
 
-## 📬 Contact & Links
+### 🤖 [NexusOrch / ManagerAI](https://github.com/abdullah00ashraf/managerAI) — Enterprise Multi-Agent Graph Governance Mesh
+* **Overview**: Autonomous enterprise orchestration platform coordinating specialized LLM nodes (Finance, DevOps, Resources, Comms) via LangGraph Directed Acyclic Graphs.
+* **Technical Highlights**:
+  * **5-Wave Execution Topology**: Decouples cognitive planning from tool execution with a thread-locked Model Context Protocol (MCP 2.0) host.
+  * **Arbitrator Circuit Breaker**: Deterministic priority conflict resolution (`compliance > hard_cap > soft_preference`) eliminating recursive conversational loops and deadlocks.
+  * **1,417-Turn Augmented ChatML SFT Mixture**: 7-pillar supervised fine-tuning dataset built and validated in-house, enforcing internal `<think>` reasoning traces and deterministic JSON tool calls.
+  * **Zero-SaaS Telemetry**: Local SQLite OpenTelemetry sink logging sub-millisecond execution spans without external cloud dependencies.
+* **Artifacts**: [GitHub Repo](https://github.com/abdullah00ashraf/managerAI) &nbsp;•&nbsp; [📊 Augmented ChatML SFT Dataset](https://huggingface.co/datasets/abdullahashraf122/aegis-managerai-agentic-sft-mixture)
 
-* **Email**: [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com)
-* **GitHub**: [github.com/abdullah00ashraf](https://github.com/abdullah00ashraf)
-* **Hugging Face**: [huggingface.co/abdullahashraf122](https://huggingface.co/abdullahashraf122)
-* **Interactive Launchpad**: [launch-portal](https://github.com/abdullah00ashraf/launch-portal)
-* **Master Audit Catalog**: [`MASTER_DEPLOYMENT_CATALOG.md`](https://github.com/abdullah00ashraf/sentinel-hufp-v7/blob/main/MASTER_DEPLOYMENT_CATALOG.md)
+---
+
+### 🏛️ [Aegis AI Tower](https://github.com/abdullah00ashraf/aegis-ai-tower) — Sovereign Cyber-Physical Defense & Edge Shaders
+* **Overview**: Sovereign cyber-physical infrastructure mesh managing real-time building arbitration, edge sensor networks, and interactive WebGPU physical simulations.
+* **Technical Highlights**:
+  * **WebGPU WGSL Shader Suite**: 50 prompt-response pairs compiling natural language simulation queries directly into executable WebGPU compute and fragment shaders (Navier-Stokes fluid advection, seismic dissipation, acoustic damping).
+  * **Sovereign Persona Dataset**: 183 KB ChatML technical dialogue conditioning autonomous models with high-cadence executive engineering cadence.
+  * **Full-Stack HUD**: React 19, Three.js canvas particle clouds, and Tailwind CSS 4.
+* **Artifacts**: [GitHub Repo](https://github.com/abdullah00ashraf/aegis-ai-tower) &nbsp;•&nbsp; [📊 Sovereign Persona Dataset](https://huggingface.co/datasets/abdullahashraf122/aegis-persona-sovereign-node) &nbsp;•&nbsp; [📊 WGSL Shaders Dataset](https://huggingface.co/datasets/abdullahashraf122/aegis-wgsl-webgpu-shaders)
+
+---
+
+### 🛰️ [Alaska Arctic Hydrology](https://github.com/abdullah00ashraf/ALASKA_SANDBOX) — Sub-Arctic Hydro-Climatic Alignment
+* **Overview**: High-throughput geospatial pipeline harmonizing continental digital elevation models with satellite surface water occurrence.
+* **Technical Highlights**:
+  * **Spatial Alignment Engine**: Sub-pixel extraction aligning HydroSHEDS 15-arcsec DEMs with JRC Global Surface Water occurrence percentages and IMD precipitation.
+  * **50k-Point Feature Matrix**: Compiled into an optimized 1.97 MB Apache Parquet matrix for instant streaming.
+* **Artifacts**: [GitHub Repo](https://github.com/abdullah00ashraf/ALASKA_SANDBOX) &nbsp;•&nbsp; [📊 50k Parquet Matrix](https://huggingface.co/datasets/abdullahashraf122/alaska-arctic-hydrology-matrix)
+
+---
+
+### 🚀 [Axiyon Launch Portal](https://github.com/abdullah00ashraf/launch-portal) — Cyber-Physical Interactive Launchpad
+* **Overview**: Interactive cyberpunk-styled tactical operations center and deployment HUD built with Next.js 14 and Framer Motion.
+* **Technical Highlights**:
+  * **Interactive Tactical Dials**: Real-time parameter sliders (rainfall intensity, tidal surge meters, solver stress thresholds) driving dynamic frontend risk calculations.
+  * **Stateful Cryptographic HUD**: Canvas text-scrambling decryption animations and zero-latency terminal log simulation.
+* **Artifacts**: [GitHub Repo](https://github.com/abdullah00ashraf/launch-portal)
+
+---
+
+## 🤗 Hugging Face Published Assets (Live Inventory)
+
+All neural weights, scalers, and preprocessed datasets are officially hosted under [`abdullahashraf122`](https://huggingface.co/abdullahashraf122):
+
+| Hub Repository | Type | Scale / Records | Format | Key Architectural Highlight |
+|:---|:---:|:---:|:---:|:---|
+| [`sentinel-mumbai-pinn-v1`](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1) | **Model** | **20,387,457 weights** | PyTorch (`.pt`) | 6-Layer Bi-LSTM + Self-Attention + Log-Cosh Hydraulic Lock loss. |
+| [`sentinel-v7-deep-flood-lstm`](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm) | **Model** | ~200k params | Keras 3 (`.keras`) | Dual Bi-LSTM packaged with fitted 8-feature `scaler.joblib`. |
+| [`sentinel-mumbai-hybrid-pinn-keras`](https://huggingface.co/abdullahashraf122/sentinel-mumbai-hybrid-pinn-keras) | **Model** | ~350k params | Keras 3 (Float16) | Mixed-precision PINN enforcing continuity PDE residual loss. |
+| [`mumbai-salsette-flood-intelligence-2005-2023`](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023) | **Dataset** | **27.84 GB (633M rows)** | Apache Parquet | 19 annual partitions across 216,284 spatial cells with ERA5 & tides. |
+| [`lucknow_hufp_datasets`](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets) | **Dataset** | **2.88 GB (83.9M rows)** | NumPy (`.npy`) | Memory-mapped arrays combining Sentinel-1 SAR and HydroSHEDS. |
+| [`aegis-managerai-agentic-sft-mixture`](https://huggingface.co/datasets/abdullahashraf122/aegis-managerai-agentic-sft-mixture) | **Dataset** | **1.68 MB (1,417 rows)** | ChatML JSONL | 7-pillar supervised fine-tuning mixture with internal `<think>` reasoning. |
+| [`alaska-arctic-hydrology-matrix`](https://huggingface.co/datasets/abdullahashraf122/alaska-arctic-hydrology-matrix) | **Dataset** | **1.97 MB (50k rows)** | Apache Parquet | HydroSHEDS 15-arcsec DEM elevation unified with JRC surface water. |
+| [`aegis-persona-sovereign-node`](https://huggingface.co/datasets/abdullahashraf122/aegis-persona-sovereign-node) | **Dataset** | **183.7 KB** | ChatML JSONL | Executive tech-founder dialogue for sovereign infrastructure nodes. |
+| [`aegis-wgsl-webgpu-shaders`](https://huggingface.co/datasets/abdullahashraf122/aegis-wgsl-webgpu-shaders) | **Dataset** | **46.5 KB (50 pairs)** | Text-to-Code | Physical simulation queries mapped to WebGPU WGSL compute shaders. |
+
+---
+
+## ⚡ Quickstart: Python Hub Integration
+
+```python
+# 1. Download Sentinel-V7 Model & Fitted Scaler from Hugging Face
+from huggingface_hub import hf_hub_download
+import keras, joblib, numpy as np
+
+model_file  = hf_hub_download(repo_id="abdullahashraf122/sentinel-v7-deep-flood-lstm", filename="bi_lstm_flood_model_v7_deep.keras")
+scaler_file = hf_hub_download(repo_id="abdullahashraf122/sentinel-v7-deep-flood-lstm", filename="scaler.joblib")
+
+model  = keras.models.load_model(model_file)
+scaler = joblib.load(scaler_file)
+
+# 2. Run inference on 8-dimensional telemetry octet:
+# [elevation, river_dist, rainfall_mm, runoff_mm, soil_moisture, river_discharge, pop_density, sar_vh]
+sample_octet = np.array([[120.0, 1.2, 145.0, 43.5, 0.88, 1250.0, 3500.0, -28.5]])
+risk_score   = float(model.predict(scaler.transform(sample_octet).reshape(1, 1, 8), verbose=0)[0, 0])
+print(f"Predicted Flood Vulnerability Index: {risk_score:.4f}")
+
+# 3. Stream ManagerAI Agentic SFT Dataset
+from datasets import load_dataset
+sft_mixture = load_dataset("abdullahashraf122/aegis-managerai-agentic-sft-mixture", split="train")
+print(f"Loaded {len(sft_mixture)} Agentic SFT records. Sample turn:", sft_mixture[0]["messages"][2]["content"][:100])
+```
+
+---
+
+## 🔬 Empirical Audits & Disaster Certification
+
+* **0.668 ms / 100 Nodes**: Production inference latency tested on CPU edge runtimes.
+* **10 Certified Disaster Scenarios**: Stress-tested across Dry Baseline (`S1`), Flash Flood (`S3`), River Surge (`S4`), Combined Monsoon Extreme (`S5`, peak risk 55.97%), and AMC III Soil Saturation (`S10`).
+* **Cryptographic Memory Locking (`mlock`)**: Neural weights decrypted directly into RAM, zero plaintext keys written to persistent storage.
+* **Zero-SaaS Protocol**: All telemetry pipelines execute entirely air-gapped on local hardware (SQLite, Redis, PyArrow).
+
+---
+
+<div align="center">
+
+### 📬 Direct Professional Uplinks
+
+[![Email](https://img.shields.io/badge/Email-abdullah.ashraf55780%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullah.ashraf55780@gmail.com)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-%40abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdullah00ashraf)
+&nbsp;
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%40abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/abdullahashraf122)
+
+<br/>
+
+<sub>Master Architectural & Security Blueprint: [`MASTER_DEPLOYMENT_CATALOG.md`](https://github.com/abdullah00ashraf/sentinel-hufp-v7/blob/main/MASTER_DEPLOYMENT_CATALOG.md)</sub>
+
+</div>
