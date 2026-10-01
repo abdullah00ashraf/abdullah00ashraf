@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#0a1226" />
+      <stop offset="100%" stop-color="#03050a" />
+    </linearGradient>
+
+    <!-- Neon Cyan Gradient -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00c6ff" />
+    </linearGradient>
+
+    <!-- Emerald Gradient -->
+    <linearGradient id="emerald-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Text Fill Gradient -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#e0f2fe" />
+      <stop offset="80%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyber-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00f2fe" stroke-width="0.75" stroke-opacity="0.08" />
+      <circle cx="0" cy="0" r="1" fill="#00f2fe" fill-opacity="0.25" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neon-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="300" fill="url(#bg-grad)" rx="12" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="150" cy="80" r="180" fill="#00f2fe" fill-opacity="0.06" filter="url(#soft-glow)" />
+  <circle cx="1050" cy="220" r="220" fill="#10b981" fill-opacity="0.05" filter="url(#soft-glow)" />
+  <circle cx="850" cy="50" r="140" fill="#3b82f6" fill-opacity="0.07" filter="url(#soft-glow)" />
+
+  <!-- Grid Layer -->
+  <rect width="1200" height="300" fill="url(#cyber-grid)" rx="12" />
+
+  <!-- Abstract Radar / Hydro Waveforms -->
+  <g opacity="0.35">
+    <path d="M 0 190 Q 300 130 600 210 T 1200 160" fill="none" stroke="url(#cyan-glow)" stroke-width="1.5" />
+    <path d="M 0 220 Q 350 160 700 240 T 1200 190" fill="none" stroke="#10b981" stroke-width="1" stroke-dasharray="4,6" />
+    <path d="M 0 250 Q 250 200 550 260 T 1200 230" fill="none" stroke="#38bdf8" stroke-width="0.75" stroke-opacity="0.5" />
+  </g>
+
+  <!-- Tactical HUD Border Elements -->
+  <g stroke="#00f2fe" stroke-width="1.5" fill="none" opacity="0.6">
+    <!-- Top-Left Bracket -->
+    <path d="M 25 45 L 25 25 L 45 25" />
+    <!-- Top-Right Bracket -->
+    <path d="M 1155 25 L 1175 25 L 1175 45" />
+    <!-- Bottom-Left Bracket -->
+    <path d="M 25 255 L 25 275 L 45 275" />
+    <!-- Bottom-Right Bracket -->
+    <path d="M 1155 275 L 1175 275 L 1175 255" />
+  </g>
+
+  <!-- Technical Telemetry Readout (Top Left) -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" fill="#38bdf8" letter-spacing="1.5" opacity="0.85">
+    <text x="50" y="42">SYS.NODE // AEGIS-CORE-ONLINE</text>
+    <circle cx="300" cy="38" r="3.5" fill="#10b981" filter="url(#neon-blur)" />
+    <text x="312" y="42" fill="#10b981">AIR-GAPPED RUNTIME ACTIVE</text>
+  </g>
+
+  <!-- Top Right Telemetry Coordinate -->
+  <g font-family="monospace" font-size="11" fill="#64748b" text-anchor="end" letter-spacing="1">
+    <text x="1150" y="42">LOC: 19.0760° N, 72.8777° E [IST +0530]</text>
+  </g>
+
+  <!-- Center Hero Branding -->
+  <!-- Subtle Glow Behind Name -->
+  <text x="50" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="54" font-weight="900" fill="url(#cyan-glow)" filter="url(#neon-blur)" opacity="0.4" letter-spacing="0.5">
+    ABDULLAH ASHRAF
+  </text>
+  <!-- Sharp Foreground Name -->
+  <text x="50" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="54" font-weight="900" fill="url(#text-grad)" letter-spacing="0.5">
+    ABDULLAH ASHRAF
+  </text>
+
+  <!-- Core Specialization Subtitle -->
+  <text x="52" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif" font-size="19" font-weight="600" fill="#94a3b8" letter-spacing="0.5">
+    Autonomous Systems Architect <tspan fill="#00f2fe">•</tspan> Physics-Informed AI <tspan fill="#00f2fe">•</tspan> Edge Geospatial Intelligence
+  </text>
+
+  <!-- Manifesto / Tagline -->
+  <text x="52" y="196" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="13" fill="#cbd5e1" opacity="0.85">
+    "Embedding deterministic physical boundary laws into deep representation learning — zero-SaaS, resilient runtimes."
+  </text>
+
+  <!-- Metric Badges Row (Bottom) -->
+  <g transform="translate(52, 230)">
+    <!-- Badge 1: Commits -->
+    <g transform="translate(0, 0)">
+      <rect width="190" height="32" rx="6" fill="#0c192e" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="16" cy="16" r="4" fill="#00f2fe" />
+      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">180K+ COMMITS</text>
+      <text x="122" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">PULSE</text>
+    </g>
+
+    <!-- Badge 2: PINN Parameters -->
+    <g transform="translate(205, 0)">
+      <rect width="210" height="32" rx="6" fill="#0c192e" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="16" cy="16" r="4" fill="#38bdf8" />
+      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">20.3M PINN</text>
+      <text x="105" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">WEIGHTS</text>
+    </g>
+
+    <!-- Badge 3: Dataset Volume -->
+    <g transform="translate(430, 0)">
+      <rect width="210" height="32" rx="6" fill="#0c192e" stroke="#10b981" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="16" cy="16" r="4" fill="#10b981" />
+      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">633M ROWS</text>
+      <text x="105" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">PARQUET</text>
+    </g>
+
+    <!-- Badge 4: Multi-Agent Hub -->
+    <g transform="translate(655, 0)">
+      <rect width="220" height="32" rx="6" fill="#0c192e" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="16" cy="16" r="4" fill="#c084fc" />
+      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">LANGGRAPH MCP</text>
+      <text x="140" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">MESH</text>
+    </g>
+
+    <!-- Badge 5: Dual Hub -->
+    <g transform="translate(890, 0)">
+      <rect width="200" height="32" rx="6" fill="#0c192e" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="16" cy="16" r="4" fill="#fbbf24" />
+      <text x="28" y="20" font-family="monospace" font-size="11.5" font-weight="bold" fill="#e0f2fe">DUAL HUB</text>
+      <text x="100" y="20" font-family="sans-serif" font-size="10.5" fill="#64748b">GH + HF</text>
+    </g>
+  </g>
+
+  <!-- Accent Geometry / Radar Reticle in Bottom Right -->
+  <g transform="translate(1110, 160)" stroke="#00f2fe" stroke-opacity="0.25" fill="none">
+    <circle cx="0" cy="0" r="50" stroke-dasharray="2,4" />
+    <circle cx="0" cy="0" r="30" />
+    <circle cx="0" cy="0" r="10" stroke="#10b981" stroke-opacity="0.5" />
+    <line x1="-55" y1="0" x2="55" y2="0" stroke-opacity="0.4" />
+    <line x1="0" y1="-55" x2="0" y2="55" stroke-opacity="0.4" />
+  </g>
+</svg>
