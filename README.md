@@ -18,6 +18,8 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Timezone-UTC%2B05%3A30-3B82F6?style=flat-square&logo=clockify&logoColor=white" alt="Timezone: IST" />
   &nbsp;
+  <img src="https://img.shields.io/badge/Credentials-16%20Verified%20Certifications-F59E0B?style=flat-square&logo=credly&logoColor=white" alt="16 Verified Certifications" />
+  &nbsp;
   <img src="https://img.shields.io/badge/Architecture-Air--Gapped%20%7C%20Zero--SaaS-6366F1?style=flat-square&logo=shield&logoColor=white" alt="Zero-SaaS" />
   &nbsp;
   <img src="https://img.shields.io/badge/Focus-PINNs%20%26%20Edge%20Inference-8B5CF6?style=flat-square&logo=lightning&logoColor=white" alt="PINNs Focus" />
@@ -205,6 +207,81 @@ All neural weights, scalers, and preprocessed datasets are officially hosted und
 | [`alaska-arctic-hydrology-matrix`](https://huggingface.co/datasets/abdullahashraf122/alaska-arctic-hydrology-matrix) | **Dataset** | **1.97 MB (50k rows)** | Apache Parquet | HydroSHEDS 15-arcsec DEM elevation unified with JRC surface water. |
 | [`aegis-persona-sovereign-node`](https://huggingface.co/datasets/abdullahashraf122/aegis-persona-sovereign-node) | **Dataset** | **183.7 KB** | ChatML JSONL | Executive tech-founder dialogue for sovereign infrastructure nodes. |
 | [`aegis-wgsl-webgpu-shaders`](https://huggingface.co/datasets/abdullahashraf122/aegis-wgsl-webgpu-shaders) | **Dataset** | **46.5 KB (50 pairs)** | Text-to-Code | Physical simulation queries mapped to WebGPU WGSL compute shaders. |
+
+---
+
+## 🎖️ Verified Professional Credentials & Industry Simulations
+
+Comprehensive portfolio of certified industry simulations, enterprise security clearances, and accredited technical specializations spanning Cloud Architecture, Cyber Defense, Applied Machine Learning, and Enterprise Governance.
+
+<div align="center">
+
+<!-- Category 1: Cloud & Systems Architecture -->
+<p align="center" style="margin-bottom: 8px;">
+  <a href="certificates/AWS_Solutions_Architecture.pdf"><img src="https://img.shields.io/badge/AWS-Solutions_Architecture_Simulation-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900" alt="AWS Solutions Architecture" /></a>
+  &nbsp;
+  <a href="certificates/Cisco_Cybersecurity_Defense_Analyst.pdf"><img src="https://img.shields.io/badge/Cisco-Cybersecurity_Defense_Analyst-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Cybersecurity Defense Analyst" /></a>
+  &nbsp;
+  <a href="https://www.credly.com/badges/0f4e5323-545e-48f5-adfb-5e9d549f1abf" target="_blank"><img src="https://img.shields.io/badge/IBM_SkillsBuild-Cybersecurity_Fundamentals-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Cybersecurity Fundamentals" /></a>
+  &nbsp;
+  <a href="certificates/Deloitte_Cybersecurity.pdf"><img src="https://img.shields.io/badge/Deloitte-Cyber_Job_Simulation-86BC25?style=for-the-badge&logo=deloitte&logoColor=white" alt="Deloitte Cyber Simulation" /></a>
+</p>
+
+<!-- Category 2: AI, Data Science & Quantum -->
+<p align="center" style="margin-bottom: 8px;">
+  <a href="certificates/Cisco_Data_Science_Essentials_Python.pdf"><img src="https://img.shields.io/badge/Cisco-Data_Science_Essentials_Python-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" alt="Cisco Data Science" /></a>
+  &nbsp;
+  <a href="https://www.credly.com/go/CINSHfbp" target="_blank"><img src="https://img.shields.io/badge/IBM_SkillsBuild-Quantum_Enigmas-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Quantum Enigmas" /></a>
+  &nbsp;
+  <a href="certificates/TCS_GenAI_Data_Analytics.pdf"><img src="https://img.shields.io/badge/TCS-GenAI_Data_Analytics-00539C?style=for-the-badge&logo=tata&logoColor=white" alt="TCS GenAI Data Analytics" /></a>
+  &nbsp;
+  <a href="certificates/Quantium_Data_Analytics.pdf"><img src="https://img.shields.io/badge/Quantium-Data_Analytics_Simulation-00A3E0?style=for-the-badge&logo=googleanalytics&logoColor=white" alt="Quantium Data Analytics" /></a>
+  &nbsp;
+  <a href="certificates/Kaggle_Intro_to_AI_Ethics.png"><img src="https://img.shields.io/badge/Kaggle-Intro_to_AI_Ethics-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle AI Ethics" /></a>
+</p>
+
+<!-- Category 3: Enterprise Strategy, Security & Data Management -->
+<p align="center" style="margin-bottom: 8px;">
+  <a href="certificates/Mastercard_Cybersecurity.pdf"><img src="https://img.shields.io/badge/Mastercard-Cybersecurity_Defense-EB001B?style=for-the-badge&logo=mastercard&logoColor=white" alt="Mastercard Cybersecurity" /></a>
+  &nbsp;
+  <a href="certificates/Mastercard_Advisors_Consulting.pdf"><img src="https://img.shields.io/badge/Mastercard-Advisors_&_Consulting-EB001B?style=for-the-badge&logo=mastercard&logoColor=white" alt="Mastercard Advisors & Consulting" /></a>
+  &nbsp;
+  <a href="certificates/TCS_Cybersecurity_IAM.pdf"><img src="https://img.shields.io/badge/TCS-IAM_&_Cyber_Risk-00539C?style=for-the-badge&logo=tata&logoColor=white" alt="TCS IAM Risk" /></a>
+  &nbsp;
+  <a href="certificates/TCS_Data_Visualisation.pdf"><img src="https://img.shields.io/badge/TCS-Data_Visualisation_Insights-00539C?style=for-the-badge&logo=tata&logoColor=white" alt="TCS Data Visualisation" /></a>
+  &nbsp;
+  <a href="certificates/Google_Data_Foundations.pdf"><img src="https://img.shields.io/badge/Google-Data_Foundations-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Data Foundations" /></a>
+</p>
+
+<!-- Category 4: Professional Leadership & Credly Verifications -->
+<p align="center" style="margin-bottom: 18px;">
+  <a href="https://www.credly.com/badges/49340e50-a482-4e54-b006-ba5078dafc79" target="_blank"><img src="https://img.shields.io/badge/IBM_SkillsBuild-Professional_Skills-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Professional Skills" /></a>
+  &nbsp;
+  <a href="https://www.credly.com/badges/739b521c-e8e7-4b7b-b27a-3915cbb0a39e" target="_blank"><img src="https://img.shields.io/badge/IBM_SkillsBuild-Career_Management-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Career Management" /></a>
+</p>
+
+</div>
+
+### 📑 Verified Credentials Index
+
+| Specialization Domain | Credential / Simulation Program | Issuing Body | Verification & Audit Record |
+|:---|:---|:---:|:---|
+| **Cloud Architecture** | Solutions Architecture Job Simulation | **Amazon Web Services (AWS)** | [`AWS_Solutions_Architecture.pdf`](certificates/AWS_Solutions_Architecture.pdf) |
+| **Cybersecurity** | Cybersecurity Defense Analyst Career Path | **Cisco Networking Academy** | [`Cisco_Cybersecurity_Defense_Analyst.pdf`](certificates/Cisco_Cybersecurity_Defense_Analyst.pdf) |
+| **Cybersecurity** | Cybersecurity Fundamentals | **IBM SkillsBuild** | [Credly Badge `0f4e5323`](https://www.credly.com/badges/0f4e5323-545e-48f5-adfb-5e9d549f1abf) &nbsp;•&nbsp; [`IBM_Cybersecurity_Fundamentals.pdf`](certificates/IBM_Cybersecurity_Fundamentals.pdf) |
+| **Cyber Defense** | Cyber Job Simulation (Security Analysis & Incident Response) | **Deloitte** | [`Deloitte_Cybersecurity.pdf`](certificates/Deloitte_Cybersecurity.pdf) |
+| **Enterprise Security** | Cybersecurity Job Simulation (Phishing Defense & Strategy) | **Mastercard** | [`Mastercard_Cybersecurity.pdf`](certificates/Mastercard_Cybersecurity.pdf) |
+| **IAM & Governance** | Cybersecurity Analyst Job Simulation (IAM & Access Governance) | **Tata Consultancy Services (TCS)** | [`TCS_Cybersecurity_IAM.pdf`](certificates/TCS_Cybersecurity_IAM.pdf) |
+| **Data Science & ML** | Data Science Essentials with Python | **Cisco Networking Academy** | [`Cisco_Data_Science_Essentials_Python.pdf`](certificates/Cisco_Data_Science_Essentials_Python.pdf) |
+| **Generative AI & Data** | GenAI Powered Data Analytics Job Simulation | **Tata Consultancy Services (TCS)** | [`TCS_GenAI_Data_Analytics.pdf`](certificates/TCS_GenAI_Data_Analytics.pdf) |
+| **Quantum Computing** | Quantum Enigmas | **IBM SkillsBuild** | [Credly Verification](https://www.credly.com/go/CINSHfbp) &nbsp;•&nbsp; [`IBM_Quantum_Enigmas.pdf`](certificates/IBM_Quantum_Enigmas.pdf) |
+| **Data Analytics** | Commercial Data Analytics Job Simulation | **Quantium** | [`Quantium_Data_Analytics.pdf`](certificates/Quantium_Data_Analytics.pdf) |
+| **Business Intelligence** | Data Visualisation: Empowering Business with Effective Insights | **Tata Consultancy Services (TCS)** | [`TCS_Data_Visualisation.pdf`](certificates/TCS_Data_Visualisation.pdf) |
+| **Data Foundations** | Foundations: Data, Data, Everywhere | **Google Career Certificates** | [`Google_Data_Foundations.pdf`](certificates/Google_Data_Foundations.pdf) |
+| **AI Ethics** | Intro to AI Ethics (Bias, Fairness & Governance) | **Kaggle** | [`Kaggle_Intro_to_AI_Ethics.png`](certificates/Kaggle_Intro_to_AI_Ethics.png) |
+| **Management & Advisory**| Advisors & Consulting Services Job Simulation | **Mastercard** | [`Mastercard_Advisors_Consulting.pdf`](certificates/Mastercard_Advisors_Consulting.pdf) |
+| **Professional Skills** | Working in a Digital World: Professional Skills | **IBM SkillsBuild** | [Credly Badge `49340e50`](https://www.credly.com/badges/49340e50-a482-4e54-b006-ba5078dafc79) &nbsp;•&nbsp; [`IBM_Professional_Skills.pdf`](certificates/IBM_Professional_Skills.pdf) |
+| **Career Leadership** | Career Management Essentials | **IBM SkillsBuild** | [Credly Badge `739b521c`](https://www.credly.com/badges/739b521c-e8e7-4b7b-b27a-3915cbb0a39e) &nbsp;•&nbsp; [`IBM_Career_Management_Essentials.pdf`](certificates/IBM_Career_Management_Essentials.pdf) |
 
 ---
 
