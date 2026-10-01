@@ -138,7 +138,7 @@ pie title Primary Language Composition
   * **Keras 3 Mixed-Precision PINN**: Attention-augmented network enforcing continuity PDE residuals $\frac{\partial \hat{y}}{\partial t} - (\text{Rain} - \text{Infil}) = 0$.
   * **27.84 GB Multi-Decadal Parquet Vault**: Fuses 19 years (2005–2023, 633M records) of Sentinel-1 SAR, ERA5 weather, and 1-minute tide gauges.
   * **0.668 ms Inference Latency**: Sub-millisecond execution per 100 geospatial nodes certified across 10 deterministic disaster stress scenarios.
-* **Artifacts**: [GitHub Repo](https://github.com/abdullah00ashraf/sentinel-hufp-v7) &nbsp;•&nbsp; [🤗 PyTorch PINN Model](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1) &nbsp;•&nbsp; [🤗 Keras Sequence Model](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm) &nbsp;•&nbsp; [📊 27.8 GB Parquet Dataset](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023) &nbsp;•&nbsp; [📊 83.9M Vector NumPy Vault](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets)
+* **Artifacts**: [Sentinel V7 Model Repo](https://github.com/abdullah00ashraf/sentinel-hufp-v7) &nbsp;•&nbsp; [Mumbai Operations Runtime Repo](https://github.com/abdullah00ashraf/MUMBAI_mlc) &nbsp;•&nbsp; [🤗 PyTorch PINN Model](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1) &nbsp;•&nbsp; [🤗 Keras Sequence Model](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm) &nbsp;•&nbsp; [📊 27.8 GB Parquet Dataset](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023) &nbsp;•&nbsp; [📊 83.9M Vector NumPy Vault](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets)
 
 ---
 
