@@ -24,13 +24,43 @@
 
 # Abdullah Ashraf
 ### **Autonomous Systems Architect • Deep Learning & Geospatial Intelligence • Systems Engineer**
-🌐 **Live Portfolio:** [**abdullahashraf.pythonanywhere.com**](https://abdullahashraf.pythonanywhere.com/) &nbsp;•&nbsp; 📍 Greater Mumbai, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🐙 [GitHub](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [Hugging Face](https://huggingface.co/abdullahashraf122)
+🌐 **Live Portfolio:** [**abdullahashraf.pythonanywhere.com**](https://abdullahashraf.pythonanywhere.com/) &nbsp;•&nbsp; 📍 Lucknow, Uttar Pradesh, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🐙 [GitHub](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [Hugging Face](https://huggingface.co/abdullahashraf122)
 
 > **Executive Summary:** Systems and Deep Learning Engineer specializing in **Physics-Informed Neural Networks (PINNs)**, **Multi-Agent Directed Acyclic Graph (DAG) Governance (LangGraph / MCP 2.0)**, and **Zero-SaaS air-gapped geospatial intelligence runtimes**. Author of production spatiotemporal big-data pipelines (633M records across 27.8 GB Parquet), custom WebGPU simulation shaders, and sub-millisecond edge neural inference engines.
 
 ---
 
 ## 🛠️ Languages, Tools & Technical Arsenal
+
+### 📊 Codebase Language Distribution
+
+```mermaid
+pie title Primary Language Composition
+    "Python (PyTorch, Keras, FastAPI)" : 54
+    "TypeScript / JavaScript (Next.js, React)" : 22
+    "WebGPU WGSL (Compute Shaders)" : 11
+    "Rust / C++ (Physics Kernels)" : 8
+    "SQL & Shell (Databases & DevOps)" : 5
+```
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah00ashraf&layout=donut&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00f2fe&text_color=94a3b8" alt="Top Languages Donut Chart" />
+</div>
+
+<br/>
+
+### 🧰 Tools & Infrastructure Stack
+
+| Domain | Core Tools & Platforms | Operational Responsibility |
+|:---|:---|:---|
+| **Deep Learning & Modeling** | `PyTorch` `TensorFlow` `Keras 3` `Hugging Face Hub` `Scikit-Learn` `SHAP` `LIME` | Physics-informed loss manifolds, neural training, model versioning |
+| **Agentic & Graph Systems** | `LangGraph` `Model Context Protocol (MCP 2.0)` `Pydantic v2` `NetworkX` | Multi-agent DAG routing, thread-locked tool brokerage, schema typing |
+| **Geospatial & Big Data** | `GDAL` `Rasterio` `Apache Parquet` `PyArrow` `Xarray` `NetCDF4` `Sentinel-1 SAR` | Spatial DEM sampling, 27.8 GB columnar streams, radar calibration |
+| **Backend & Edge Runtimes** | `FastAPI` `Uvicorn` `Redis` `SQLite` `Docker` `HMAC SHA-256` | Async REST endpoints, anti-replay nonces, air-gapped appliances |
+| **Frontend & Visualization** | `Next.js 14` `React 19` `Tailwind CSS 4` `Three.js` `Framer Motion` `WebGPU` | Cyberpunk tactical HUDs, particle clouds, canvas decryption |
+| **DevOps & Environment** | `Git` `Git LFS` `VS Code` `UV` `Poetry` `Pip` `PowerShell` `Bash` | Reproducible dependency environments, large binary tracking |
+
+<br/>
 
 ### 1. Programming Languages
 * **Python 3.12+** — *Advanced*: PyTorch, Keras 3, AsyncIO, FastAPI, NumPy, Pandas, PyArrow, SciPy, Numba, Poetry, UV
@@ -201,6 +231,8 @@ print(f"Loaded {len(sft_mixture)} Agentic SFT records. Sample turn:", sft_mixtur
 <a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Email-abdullah.ashraf55780%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
 
 <br/><br/>
+
+<p align="center">📍 Location: <b>Lucknow, Uttar Pradesh, India</b> (26.8467° N, 80.9462° E) // IST [+0530]</p>
 
 <sub>Master Architectural & Security Blueprint: [`MASTER_DEPLOYMENT_CATALOG.md`](https://github.com/abdullah00ashraf/sentinel-hufp-v7/blob/main/MASTER_DEPLOYMENT_CATALOG.md)</sub>
 
