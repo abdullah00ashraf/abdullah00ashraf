@@ -9,11 +9,11 @@
 <p align="center">
   <a href="https://abdullahashraf.pythonanywhere.com/"><img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" /></a>
   &nbsp;
+  <a href="https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/"><img src="https://img.shields.io/badge/LinkedIn-abdullah--ashraf-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" /></a>
+  &nbsp;
   <a href="https://github.com/abdullah00ashraf"><img src="https://img.shields.io/badge/GitHub-abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
   &nbsp;
   <a href="https://huggingface.co/abdullahashraf122"><img src="https://img.shields.io/badge/Hugging%20Face-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" /></a>
-  &nbsp;
-  <a href="https://github.com/abdullah00ashraf/launch-portal"><img src="https://img.shields.io/badge/Live%20Demo-Launch%20Portal-9333EA?style=for-the-badge&logo=vercel&logoColor=white" height="32" alt="Launch Portal" /></a>
   &nbsp;
   <a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Direct%20Contact-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
 </p>
@@ -24,7 +24,7 @@
 
 # Abdullah Ashraf
 ### **Autonomous Systems Architect • Deep Learning & Geospatial Intelligence • Systems Engineer**
-🌐 **Live Portfolio:** [**abdullahashraf.pythonanywhere.com**](https://abdullahashraf.pythonanywhere.com/) &nbsp;•&nbsp; 📍 Lucknow, Uttar Pradesh, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🐙 [GitHub](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [Hugging Face](https://huggingface.co/abdullahashraf122)
+🌐 **Live Portfolio:** [**abdullahashraf.pythonanywhere.com**](https://abdullahashraf.pythonanywhere.com/) &nbsp;•&nbsp; 💼 **LinkedIn:** [**abdullah-ashraf**](https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/) &nbsp;•&nbsp; 📍 Lucknow, Uttar Pradesh, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🐙 [GitHub](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [Hugging Face](https://huggingface.co/abdullahashraf122)
 
 > **Executive Summary:** Systems and Deep Learning Engineer specializing in **Physics-Informed Neural Networks (PINNs)**, **Multi-Agent Directed Acyclic Graph (DAG) Governance (LangGraph / MCP 2.0)**, and **Zero-SaaS air-gapped geospatial intelligence runtimes**. Author of production spatiotemporal big-data pipelines (633M records across 27.8 GB Parquet), custom WebGPU simulation shaders, and sub-millisecond edge neural inference engines.
 
@@ -223,6 +223,8 @@ print(f"Loaded {len(sft_mixture)} Agentic SFT records. Sample turn:", sft_mixtur
 ### 📬 Direct Professional Uplinks
 
 <a href="https://abdullahashraf.pythonanywhere.com/"><img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf.pythonanywhere.com-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/"><img src="https://img.shields.io/badge/LinkedIn-abdullah--ashraf-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" /></a>
 &nbsp;
 <a href="https://github.com/abdullah00ashraf"><img src="https://img.shields.io/badge/GitHub-%40abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
 &nbsp;
