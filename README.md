@@ -7,13 +7,13 @@
 
 <!-- Consistent, Properly Spaced Action Buttons -->
 <p align="center">
+  <a href="https://abdullahashraf.pythonanywhere.com/"><img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" /></a>
+  &nbsp;
   <a href="https://github.com/abdullah00ashraf"><img src="https://img.shields.io/badge/GitHub-abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
   &nbsp;
   <a href="https://huggingface.co/abdullahashraf122"><img src="https://img.shields.io/badge/Hugging%20Face-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" /></a>
   &nbsp;
   <a href="https://github.com/abdullah00ashraf/launch-portal"><img src="https://img.shields.io/badge/Live%20Demo-Launch%20Portal-9333EA?style=for-the-badge&logo=vercel&logoColor=white" height="32" alt="Launch Portal" /></a>
-  &nbsp;
-  <a href="https://github.com/abdullah00ashraf/sentinel-hufp-v7/blob/main/MASTER_DEPLOYMENT_CATALOG.md"><img src="https://img.shields.io/badge/Audit%20Catalog-Master%20Blueprint-0284C7?style=for-the-badge&logo=gitbook&logoColor=white" height="32" alt="Master Catalog" /></a>
   &nbsp;
   <a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Direct%20Contact-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
 </p>
@@ -24,7 +24,7 @@
 
 # Abdullah Ashraf
 ### **Autonomous Systems Architect • Deep Learning & Geospatial Intelligence • Systems Engineer**
-📍 Greater Mumbai, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🌐 [github.com/abdullah00ashraf](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [huggingface.co/abdullahashraf122](https://huggingface.co/abdullahashraf122)
+🌐 **Live Portfolio:** [**abdullahashraf.pythonanywhere.com**](https://abdullahashraf.pythonanywhere.com/) &nbsp;•&nbsp; 📍 Greater Mumbai, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🐙 [GitHub](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [Hugging Face](https://huggingface.co/abdullahashraf122)
 
 > **Executive Summary:** Systems and Deep Learning Engineer specializing in **Physics-Informed Neural Networks (PINNs)**, **Multi-Agent Directed Acyclic Graph (DAG) Governance (LangGraph / MCP 2.0)**, and **Zero-SaaS air-gapped geospatial intelligence runtimes**. Author of production spatiotemporal big-data pipelines (633M records across 27.8 GB Parquet), custom WebGPU simulation shaders, and sub-millisecond edge neural inference engines.
 
@@ -125,6 +125,15 @@
 
 ---
 
+### 🌐 [Protofolio Showcase & Gateway](https://abdullahashraf.pythonanywhere.com/) — Academic Credentials & Research CMS
+* **Overview**: Production portfolio platform and academic credentials gateway hosted live at [`abdullahashraf.pythonanywhere.com`](https://abdullahashraf.pythonanywhere.com/).
+* **Technical Highlights**:
+  * **Hardened Django Core**: Rate-limited through `django-axes` anti-brute-force defense and Argon2-cffi password hashing.
+  * **Dynamic Credential Rendering**: Serves verified research indices, dynamic timeline graphs, and full-stack API capabilities.
+* **Artifacts**: [Live Portfolio](https://abdullahashraf.pythonanywhere.com/) &nbsp;•&nbsp; [Backend Repo](https://github.com/abdullah00ashraf/portfolio-backend) &nbsp;•&nbsp; [Frontend Repo](https://github.com/abdullah00ashraf/portfolio-frontend)
+
+---
+
 ## 🤗 Hugging Face Published Assets (Live Inventory)
 
 All neural weights, scalers, and preprocessed datasets are officially hosted under [`abdullahashraf122`](https://huggingface.co/abdullahashraf122):
@@ -183,13 +192,15 @@ print(f"Loaded {len(sft_mixture)} Agentic SFT records. Sample turn:", sft_mixtur
 
 ### 📬 Direct Professional Uplinks
 
-[![Email](https://img.shields.io/badge/Email-abdullah.ashraf55780%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abdullah.ashraf55780@gmail.com)
+<a href="https://abdullahashraf.pythonanywhere.com/"><img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf.pythonanywhere.com-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" /></a>
 &nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-%40abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdullah00ashraf)
+<a href="https://github.com/abdullah00ashraf"><img src="https://img.shields.io/badge/GitHub-%40abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
 &nbsp;
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%40abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/abdullahashraf122)
+<a href="https://huggingface.co/abdullahashraf122"><img src="https://img.shields.io/badge/Hugging%20Face-%40abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" /></a>
+&nbsp;
+<a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Email-abdullah.ashraf55780%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
 
-<br/>
+<br/><br/>
 
 <sub>Master Architectural & Security Blueprint: [`MASTER_DEPLOYMENT_CATALOG.md`](https://github.com/abdullah00ashraf/sentinel-hufp-v7/blob/main/MASTER_DEPLOYMENT_CATALOG.md)</sub>
 
