@@ -1,32 +1,58 @@
 <div align="center">
 
-<!-- AI Models & Code Header Banner -->
-<img src="assets/profile_banner.svg" alt="AI Models & Code Banner" width="100%" />
+<!-- AI Models & Code Architecture Header Banner -->
+<img src="assets/profile_banner.svg" alt="AI Neural Architecture & WGSL Compute Kernel Banner" width="100%" />
 
 <br/><br/>
 
-<!-- Consistent, Properly Spaced Action Buttons -->
+<!-- Executive Identity -->
+<h1 align="center" style="border-bottom: none; font-size: 34px; margin-bottom: 2px;">Abdullah Ashraf</h1>
+
+<p align="center" style="font-size: 16px; margin-top: 0; margin-bottom: 14px; color: #79c0ff;">
+  <b>Autonomous Systems Architect &nbsp;&bull;&nbsp; Deep Learning & Geospatial Intelligence &nbsp;&bull;&nbsp; Systems Engineer</b>
+</p>
+
+<!-- Location, Timezone & Deployment Badges -->
+<p align="center" style="margin-top: 0; margin-bottom: 20px;">
+  <a href="https://www.google.com/maps/place/Lucknow,+Uttar+Pradesh,+India"><img src="https://img.shields.io/badge/Location-Lucknow%2C%20India%20(IST)-10B981?style=flat-square&logo=googlemaps&logoColor=white" alt="Location: Lucknow, India" /></a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Timezone-UTC%2B05%3A30-3B82F6?style=flat-square&logo=clockify&logoColor=white" alt="Timezone: IST" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Architecture-Air--Gapped%20%7C%20Zero--SaaS-6366F1?style=flat-square&logo=shield&logoColor=white" alt="Zero-SaaS" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Focus-PINNs%20%26%20Edge%20Inference-8B5CF6?style=flat-square&logo=lightning&logoColor=white" alt="PINNs Focus" />
+</p>
+
+<!-- Symmetrical, High-Impact Action Badges -->
 <p align="center">
-  <a href="https://abdullahashraf.pythonanywhere.com/"><img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" /></a>
+  <a href="https://abdullahashraf.pythonanywhere.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" />
+  </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/"><img src="https://img.shields.io/badge/LinkedIn-abdullah--ashraf-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-abdullah--ashraf-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" />
+  </a>
   &nbsp;
-  <a href="https://github.com/abdullah00ashraf"><img src="https://img.shields.io/badge/GitHub-abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
+  <a href="https://github.com/abdullah00ashraf" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" />
+  </a>
   &nbsp;
-  <a href="https://huggingface.co/abdullahashraf122"><img src="https://img.shields.io/badge/Hugging%20Face-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" /></a>
+  <a href="https://huggingface.co/abdullahashraf122" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging%20Face-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" />
+  </a>
   &nbsp;
-  <a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Direct%20Contact-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
+  <a href="mailto:abdullah.ashraf55780@gmail.com">
+    <img src="https://img.shields.io/badge/Direct%20Contact-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" />
+  </a>
 </p>
 
 </div>
 
----
+<br/>
 
-# Abdullah Ashraf
-### **Autonomous Systems Architect • Deep Learning & Geospatial Intelligence • Systems Engineer**
-🌐 **Live Portfolio:** [**abdullahashraf.pythonanywhere.com**](https://abdullahashraf.pythonanywhere.com/) &nbsp;•&nbsp; 💼 **LinkedIn:** [**abdullah-ashraf**](https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/) &nbsp;•&nbsp; 📍 Lucknow, Uttar Pradesh, India (IST `+05:30`) &nbsp;•&nbsp; ✉️ [abdullah.ashraf55780@gmail.com](mailto:abdullah.ashraf55780@gmail.com) &nbsp;•&nbsp; 🐙 [GitHub](https://github.com/abdullah00ashraf) &nbsp;•&nbsp; 🤗 [Hugging Face](https://huggingface.co/abdullahashraf122)
-
-> **Executive Summary:** Systems and Deep Learning Engineer specializing in **Physics-Informed Neural Networks (PINNs)**, **Multi-Agent Directed Acyclic Graph (DAG) Governance (LangGraph / MCP 2.0)**, and **Zero-SaaS air-gapped geospatial intelligence runtimes**. Author of production spatiotemporal big-data pipelines (633M records across 27.8 GB Parquet), custom WebGPU simulation shaders, and sub-millisecond edge neural inference engines.
+> [!NOTE]
+> ### 📋 Executive Engineering Briefing
+> Systems and Deep Learning Engineer specializing in **Physics-Informed Neural Networks (PINNs)**, **Multi-Agent Directed Acyclic Graph (DAG) Governance (LangGraph / MCP 2.0)**, and **Zero-SaaS air-gapped geospatial intelligence runtimes**. Author of production spatiotemporal big-data pipelines (**633M records** across 27.8 GB Parquet), custom **WebGPU simulation shaders**, and sub-millisecond edge neural inference engines (**0.668 ms / 100 Nodes**).
 
 ---
 
@@ -222,15 +248,15 @@ print(f"Loaded {len(sft_mixture)} Agentic SFT records. Sample turn:", sft_mixtur
 
 ### 📬 Direct Professional Uplinks
 
-<a href="https://abdullahashraf.pythonanywhere.com/"><img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf.pythonanywhere.com-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" /></a>
+<a href="https://abdullahashraf.pythonanywhere.com/" target="_blank"><img src="https://img.shields.io/badge/Live%20Portfolio-abdullahashraf-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="32" alt="Live Portfolio" /></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/"><img src="https://img.shields.io/badge/LinkedIn-abdullah--ashraf-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/abdullah-ashraf-0656aa2a4/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-abdullah--ashraf-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="32" alt="LinkedIn" /></a>
 &nbsp;
-<a href="https://github.com/abdullah00ashraf"><img src="https://img.shields.io/badge/GitHub-%40abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
+<a href="https://github.com/abdullah00ashraf" target="_blank"><img src="https://img.shields.io/badge/GitHub-abdullah00ashraf-181717?style=for-the-badge&logo=github&logoColor=white" height="32" alt="GitHub" /></a>
 &nbsp;
-<a href="https://huggingface.co/abdullahashraf122"><img src="https://img.shields.io/badge/Hugging%20Face-%40abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" /></a>
+<a href="https://huggingface.co/abdullahashraf122" target="_blank"><img src="https://img.shields.io/badge/Hugging%20Face-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" height="32" alt="Hugging Face" /></a>
 &nbsp;
-<a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Email-abdullah.ashraf55780%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
+<a href="mailto:abdullah.ashraf55780@gmail.com"><img src="https://img.shields.io/badge/Direct%20Contact-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="32" alt="Email" /></a>
 
 <br/><br/>
 
