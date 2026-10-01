@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Hero Banner -->
-<img src="assets/profile_banner.svg" alt="Abdullah Ashraf Banner" width="100%" />
+<img src="assets/profile_banner.png" alt="Abdullah Ashraf Banner" width="100%" />
 
 <br/><br/>
 
