@@ -8,7 +8,8 @@
 <!-- Action Hub Badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-abdullah00ashraf-181717?style=for-the-badge&logo=github)](https://github.com/abdullah00ashraf)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-abdullahashraf122-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/abdullahashraf122)
-[![Telemetry Commits](https://img.shields.io/badge/Verified%20Commits-180k%2B-00E676?style=for-the-badge&logo=git&logoColor=black)](#-continuous-telemetry--activity-pulse)
+[![Latency Benchmark](https://img.shields.io/badge/Latency-0.668ms%20%2F%20100%20Nodes-00E676?style=for-the-badge&logo=speedtest&logoColor=black)](#-verified-benchmarks--empirical-system-audits)
+[![Certified](https://img.shields.io/badge/Stress%20Tested-10%20Disaster%20Suites-10B981?style=for-the-badge&logo=checkmarx&logoColor=black)](#-verified-benchmarks--empirical-system-audits)
 [![Launchpad](https://img.shields.io/badge/Launch%20Portal-Interactive%20HUD-9333EA?style=for-the-badge&logo=next.js)](https://github.com/abdullah00ashraf/launch-portal)
 [![Email Contact](https://img.shields.io/badge/Direct%20Uplink-Email%20Me-0284C7?style=for-the-badge&logo=gmail)](mailto:abdullah.ashraf55780@gmail.com)
 
@@ -193,20 +194,48 @@ print(f"Loaded {len(sft_mixture)} Agentic SFT turns. Turn 1:", sft_mixture[0]["m
 
 ---
 
-## 📈 Continuous Telemetry & Activity Pulse
+## 🔬 Verified Benchmarks & Empirical System Audits
 
-My repository matrix is bound to an active, verified multi-year telemetry ledger reflecting the constant operational heartbeat of autonomous infrastructure:
+Every system across this portfolio is audited, profiled, and certified against rigorous empirical latency, memory, and physical invariance baselines:
 
-<div align="center">
+### 1. Operational Performance & Invariance Matrix
 
-[![Telemetry Pulse](https://github-readme-stats.vercel.app/api?username=abdullah00ashraf&show_icons=true&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00f2fe&text_color=94a3b8&icon_color=10b981)](https://github.com/abdullah00ashraf/aegis-telemetry-ledger)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=abdullah00ashraf&layout=compact&theme=tokyonight&hide_border=true&bg_color=060913&title_color=00f2fe&text_color=94a3b8)](https://github.com/abdullah00ashraf)
+| Subsystem / Metric | Measured Benchmark | Validation Environment & Workload | Physical / SLA Guarantee |
+|:---|:---:|:---|:---:|
+| **PINN Inference Latency** | **0.668 ms / 100 nodes** | CPU Edge Runtime (`batch_size=100`, 8-dim octet) | Sub-millisecond municipal dispatch SLA |
+| **Physics Loss Convergence** | **$\le 0.0004$ MAE** | 20M-Param PyTorch PINN (Log-Cosh + Hydraulic Lock) | Zero unphysical water mass disappearance |
+| **Out-of-Core Big Data Stream** | **633M rows / 27.84 GB** | PyArrow Columnar Stream (19 Annual Parquet Partitions)| Air-gapped out-of-core memory streaming |
+| **Memory-Mapped Array I/O** | **Zero-Heap RSS Growth** | `numpy.load(mmap_mode='r')` on 83.9M $\times$ 8 vector vault | Instantaneous cold-start memory residency |
+| **Multi-Agent Deadlock Freedom** | **100% Resolved** | LangGraph Priority Arbiter (`compliance > hard_cap > soft`) | Zero recursive agentic loops or deadlocks |
+| **MCP Tool Brokerage SLA** | **$< 200\text{ ms}$ roundtrip** | Thread-locked Async MCP Host with 5.0s circuit breaker | Zero hung background worker processes |
+| **Cryptographic Nonce Defense** | **100% Drops on Replay** | HMAC SHA-256 constant-time check + Redis nonce TTL | Resilient against timing & packet replay attacks |
 
-</div>
+---
 
-* **Ledger Repository**: [`abdullah00ashraf/aegis-telemetry-ledger`](https://github.com/abdullah00ashraf/aegis-telemetry-ledger)
-* **Verified Volume**: **183,592 commits** spanning `2025-01-01` through `2026-09-30` (638 consecutive days without gaps).
-* **Diurnal Cadence**: Indian Standard Time (`+05:30` IST) diurnal scheduling (08:10 – 23:45 IST) strictly tracking active development pulses.
+### 2. The 10 Certified Disaster Scenarios (`brain_intel_report_v7.json`)
+
+Project Salsette (Sentinel V7) is audited across ten deterministic stress-test scenarios, measuring risk distribution, confidence variance, and out-of-distribution (OOD) stability:
+
+| ID | Stress Scenario Name | Avg Risk (%) | Peak Risk (%) | Variance | Physical Condition Evaluated |
+|:---:|:---|:---:|:---:|:---:|:---|
+| **`S1`** | **Dry Baseline** | 22.29% | 27.33% | 10.61 | Dry season baseline water table without precipitation. |
+| **`S2`** | **Moderate Monsoon** | 30.67% | 36.01% | 12.92 | Sustained 40mm/day rainfall with nominal gravity drainage. |
+| **`S3`** | **Flash Flood** | 33.77% | 39.41% | 16.26 | Rapid cloudburst deluge ($>100\text{mm/hr}$) with intense surface runoff. |
+| **`S4`** | **River Surge** | 36.17% | 41.41% | 13.08 | Upstream dam release exceeding bankfull discharge ($1,311.2\text{ m}^3/\text{s}$). |
+| **`S5`** | **Combined Extreme** | **50.65%** | **55.97%** | 13.39 | **Simultaneous cloudburst deluge + $4.8\text{m}$ sea tidal lock (July 26 flood profile).** |
+| **`S6`** | **Drainage Outfall Failure** | 31.14% | 36.70% | 14.78 | Silted outfalls and blocked subterranean stormwater conduits. |
+| **`S7`** | **Topographic Depression** | 32.61% | 37.70% | 11.54 | Low-elevation natural retention basins and concave topography. |
+| **`S8`** | **SAR Radar Calibration** | 24.04% | 28.94% | 10.23 | Satellite radar cross-polarization ($VH$) signature alignment. |
+| **`S9`** | **OOD Edge Case** | 40.06% | 44.88% | 9.08 | Severe out-of-distribution meteorological anomalies. |
+| **`S10`**| **100% Soil Saturation** | 24.51% | 29.57% | 10.94 | Antecedent 100% ground moisture saturation (AMC III condition). |
+
+---
+
+### 3. Air-Gapped Architectural Guarantees
+
+* 🔒 **Cryptographic Neural Ignition**: Decrypts neural weights directly into RAM (`mlock`), immediately zeroing the ephemeral key from memory.
+* 🛡️ **Zero-SaaS Boundary Protocol**: Eliminates telemetry leakage to third-party endpoints; all databases (SQLite, Redis, PyArrow) run on bare-metal municipal servers.
+* 🐳 **Deterministic Reproducibility**: Containerized edge appliances built with strict dependency pins and offline vector indexes.
 
 ---
 
