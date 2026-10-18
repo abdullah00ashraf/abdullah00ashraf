@@ -192,6 +192,16 @@ pie title Primary Language Composition
 
 ---
 
+### 🛡️ [CITADEL-DXB](https://github.com/abdullah00ashraf/CITADEL-DXB) — Universal Sovereign Confidential Federated Digital Twin Engine
+* **Overview**: Universal, air-gapped, zero-trust confidential federated AI platform engineered for multi-tenant sovereign infrastructure and critical municipal utilities.
+* **Technical Highlights**:
+  * **Willow Protocol (CRYPTO 2025)**: $\mathcal{O}(1)$ additive lattice-based masking scheme integrated with Google Confidential Federated Compute (CFC).
+  * **Hardware TEE Isolation**: Intel TDX / AMD SEV-SNP remote attestation via IETF RATS (RFC 9334) vTPM measured boot.
+  * **In-Enclave Physics-Gating**: Zero-copy Rust C-ABI verification kernels evaluating differential equation residuals in 0.668 ms.
+* **Artifacts**: [GitHub Repo](https://github.com/abdullah00ashraf/CITADEL-DXB) &nbsp;•&nbsp; [📊 Federated Telemetry Dataset](https://huggingface.co/datasets/abdullahashraf122/citadel-federated-telemetry-streams)
+
+---
+
 ## 🤗 Hugging Face Published Assets (Live Inventory)
 
 All neural weights, scalers, and preprocessed datasets are officially hosted under [`abdullahashraf122`](https://huggingface.co/abdullahashraf122):
@@ -201,12 +211,15 @@ All neural weights, scalers, and preprocessed datasets are officially hosted und
 | [`sentinel-mumbai-pinn-v1`](https://huggingface.co/abdullahashraf122/sentinel-mumbai-pinn-v1) | **Model** | **20,387,457 weights** | PyTorch (`.pt`) | 6-Layer Bi-LSTM + Self-Attention + Log-Cosh Hydraulic Lock loss. |
 | [`sentinel-v7-deep-flood-lstm`](https://huggingface.co/abdullahashraf122/sentinel-v7-deep-flood-lstm) | **Model** | ~200k params | Keras 3 (`.keras`) | Dual Bi-LSTM packaged with fitted 8-feature `scaler.joblib`. |
 | [`sentinel-mumbai-hybrid-pinn-keras`](https://huggingface.co/abdullahashraf122/sentinel-mumbai-hybrid-pinn-keras) | **Model** | ~350k params | Keras 3 (Float16) | Mixed-precision PINN enforcing continuity PDE residual loss. |
-| [`mumbai-salsette-flood-intelligence-2005-2023`](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023) | **Dataset** | **27.84 GB (633M rows)** | Apache Parquet | 19 annual partitions across 216,284 spatial cells with ERA5 & tides. |
+| [`nl2py-v2-code-translator`](https://huggingface.co/abdullahashraf122/nl2py-v2-code-translator) | **Model** | **60M params** | T5-small / PyTorch | Seq2seq English-to-Python neural code translator & Gradio demo. |
+| [`mumbai-salsette-flood-intelligence-2005-2023`](https://huggingface.co/datasets/abdullahashraf122/mumbai-salsette-flood-intelligence-2005-2023) | **Dataset** | **27.84 GB (633M rows)** | Apache Parquet | ALL 19 annual partitions across 216,284 spatial cells with ERA5 & tides. |
 | [`lucknow_hufp_datasets`](https://huggingface.co/datasets/abdullahashraf122/lucknow_hufp_datasets) | **Dataset** | **2.88 GB (83.9M rows)** | NumPy (`.npy`) | Memory-mapped arrays combining Sentinel-1 SAR and HydroSHEDS. |
 | [`aegis-managerai-agentic-sft-mixture`](https://huggingface.co/datasets/abdullahashraf122/aegis-managerai-agentic-sft-mixture) | **Dataset** | **1.68 MB (1,417 rows)** | ChatML JSONL | 7-pillar supervised fine-tuning mixture with internal `<think>` reasoning. |
 | [`alaska-arctic-hydrology-matrix`](https://huggingface.co/datasets/abdullahashraf122/alaska-arctic-hydrology-matrix) | **Dataset** | **1.97 MB (50k rows)** | Apache Parquet | HydroSHEDS 15-arcsec DEM elevation unified with JRC surface water. |
 | [`aegis-persona-sovereign-node`](https://huggingface.co/datasets/abdullahashraf122/aegis-persona-sovereign-node) | **Dataset** | **183.7 KB** | ChatML JSONL | Executive tech-founder dialogue for sovereign infrastructure nodes. |
 | [`aegis-wgsl-webgpu-shaders`](https://huggingface.co/datasets/abdullahashraf122/aegis-wgsl-webgpu-shaders) | **Dataset** | **46.5 KB (50 pairs)** | Text-to-Code | Physical simulation queries mapped to WebGPU WGSL compute shaders. |
+| [`algomyth-code-generation-benchmark`](https://huggingface.co/datasets/abdullahashraf122/algomyth-code-generation-benchmark) | **Dataset** | **1.26 MB (2,000 rows)** | CSV & Parquet | Algorithmic question variants and AST code generation benchmark. |
+| [`citadel-federated-telemetry-streams`](https://huggingface.co/datasets/abdullahashraf122/citadel-federated-telemetry-streams) | **Dataset** | **3.48 MB (60,000 rows)** | Apache Parquet | Multi-agency confidential SCADA telemetry (DEWA, DM, RTA). |
 
 ---
 
